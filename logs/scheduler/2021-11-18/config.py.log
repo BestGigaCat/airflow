@@ -1,0 +1,970 @@
+[2021-11-17 21:27:16,567] {processor.py:163} INFO - Started process (PID=13004) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:16,568] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:27:16,568] {logging_mixin.py:109} INFO - [2021-11-17 21:27:16,568] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:16,609] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:16,613] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.046 seconds
+[2021-11-17 21:27:49,579] {processor.py:163} INFO - Started process (PID=13019) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:49,580] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:27:49,581] {logging_mixin.py:109} INFO - [2021-11-17 21:27:49,581] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:49,616] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:27:49,618] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.040 seconds
+[2021-11-17 21:49:19,889] {processor.py:163} INFO - Started process (PID=13990) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:19,891] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:49:19,892] {logging_mixin.py:109} INFO - [2021-11-17 21:49:19,891] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:19,917] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:19,919] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 21:49:53,139] {processor.py:163} INFO - Started process (PID=14052) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:53,140] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:49:53,141] {logging_mixin.py:109} INFO - [2021-11-17 21:49:53,141] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:53,178] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:49:53,180] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.042 seconds
+[2021-11-17 21:50:25,648] {processor.py:163} INFO - Started process (PID=14103) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:25,649] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:50:25,650] {logging_mixin.py:109} INFO - [2021-11-17 21:50:25,649] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:25,680] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:25,682] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 21:50:58,897] {processor.py:163} INFO - Started process (PID=14147) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:58,898] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:50:58,899] {logging_mixin.py:109} INFO - [2021-11-17 21:50:58,899] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:58,929] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:50:58,932] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 21:51:31,697] {processor.py:163} INFO - Started process (PID=14215) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:51:31,698] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:51:31,698] {logging_mixin.py:109} INFO - [2021-11-17 21:51:31,698] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:51:31,729] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:51:31,732] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 21:52:04,500] {processor.py:163} INFO - Started process (PID=14308) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:04,501] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:52:04,501] {logging_mixin.py:109} INFO - [2021-11-17 21:52:04,501] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:04,532] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:04,535] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 21:52:36,496] {processor.py:163} INFO - Started process (PID=14335) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:36,497] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:52:36,498] {logging_mixin.py:109} INFO - [2021-11-17 21:52:36,498] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:36,525] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:52:36,528] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 21:53:08,097] {processor.py:163} INFO - Started process (PID=14352) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:08,097] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:53:08,098] {logging_mixin.py:109} INFO - [2021-11-17 21:53:08,098] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:08,122] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:08,124] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.027 seconds
+[2021-11-17 21:53:39,929] {processor.py:163} INFO - Started process (PID=14358) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:39,931] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:53:39,931] {logging_mixin.py:109} INFO - [2021-11-17 21:53:39,931] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:39,960] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:53:39,961] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 21:54:11,457] {processor.py:163} INFO - Started process (PID=14364) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:11,458] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:54:11,458] {logging_mixin.py:109} INFO - [2021-11-17 21:54:11,458] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:11,481] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:11,482] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 21:54:43,728] {processor.py:163} INFO - Started process (PID=14370) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:43,729] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:54:43,730] {logging_mixin.py:109} INFO - [2021-11-17 21:54:43,729] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:43,759] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:54:43,761] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 21:55:16,098] {processor.py:163} INFO - Started process (PID=14383) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:16,099] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:55:16,099] {logging_mixin.py:109} INFO - [2021-11-17 21:55:16,099] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:16,130] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:16,131] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 21:55:48,669] {processor.py:163} INFO - Started process (PID=14394) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:48,670] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:55:48,671] {logging_mixin.py:109} INFO - [2021-11-17 21:55:48,671] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:48,698] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:55:48,700] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 21:56:20,380] {processor.py:163} INFO - Started process (PID=14403) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:20,381] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:56:20,381] {logging_mixin.py:109} INFO - [2021-11-17 21:56:20,381] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:20,408] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:20,410] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-17 21:56:51,966] {processor.py:163} INFO - Started process (PID=14406) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:51,966] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:56:51,967] {logging_mixin.py:109} INFO - [2021-11-17 21:56:51,967] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:51,991] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:56:51,992] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.027 seconds
+[2021-11-17 21:57:23,503] {processor.py:163} INFO - Started process (PID=14412) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:23,504] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:57:23,504] {logging_mixin.py:109} INFO - [2021-11-17 21:57:23,504] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:23,530] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:23,531] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 21:57:55,016] {processor.py:163} INFO - Started process (PID=14414) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:55,016] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:57:55,017] {logging_mixin.py:109} INFO - [2021-11-17 21:57:55,017] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:55,039] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:57:55,041] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 21:58:26,644] {processor.py:163} INFO - Started process (PID=14420) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:26,644] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:58:26,645] {logging_mixin.py:109} INFO - [2021-11-17 21:58:26,645] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:26,670] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:26,672] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 21:58:58,228] {processor.py:163} INFO - Started process (PID=14423) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:58,229] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:58:58,229] {logging_mixin.py:109} INFO - [2021-11-17 21:58:58,229] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:58,252] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:58:58,254] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.027 seconds
+[2021-11-17 21:59:30,973] {processor.py:163} INFO - Started process (PID=14432) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:59:30,974] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 21:59:30,975] {logging_mixin.py:109} INFO - [2021-11-17 21:59:30,974] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:59:31,003] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 21:59:31,005] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:00:02,940] {processor.py:163} INFO - Started process (PID=14434) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:02,941] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:00:02,942] {logging_mixin.py:109} INFO - [2021-11-17 22:00:02,942] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:02,971] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:02,972] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:00:35,558] {processor.py:163} INFO - Started process (PID=14441) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:35,559] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:00:35,560] {logging_mixin.py:109} INFO - [2021-11-17 22:00:35,560] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:35,587] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:00:35,589] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 22:01:07,180] {processor.py:163} INFO - Started process (PID=14444) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:07,181] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:01:07,181] {logging_mixin.py:109} INFO - [2021-11-17 22:01:07,181] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:07,202] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:07,204] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:01:38,674] {processor.py:163} INFO - Started process (PID=14446) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:38,675] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:01:38,675] {logging_mixin.py:109} INFO - [2021-11-17 22:01:38,675] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:38,697] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:01:38,699] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.025 seconds
+[2021-11-17 22:02:10,218] {processor.py:163} INFO - Started process (PID=14448) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:10,219] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:02:10,219] {logging_mixin.py:109} INFO - [2021-11-17 22:02:10,219] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:10,241] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:10,242] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.025 seconds
+[2021-11-17 22:02:41,753] {processor.py:163} INFO - Started process (PID=14455) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:41,753] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:02:41,754] {logging_mixin.py:109} INFO - [2021-11-17 22:02:41,754] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:41,775] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:02:41,777] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:03:13,283] {processor.py:163} INFO - Started process (PID=14458) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:13,283] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:03:13,283] {logging_mixin.py:109} INFO - [2021-11-17 22:03:13,283] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:13,305] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:13,306] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:03:45,004] {processor.py:163} INFO - Started process (PID=14465) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:45,005] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:03:45,006] {logging_mixin.py:109} INFO - [2021-11-17 22:03:45,006] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:45,033] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:03:45,035] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 22:04:16,525] {processor.py:163} INFO - Started process (PID=14468) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:16,526] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:04:16,526] {logging_mixin.py:109} INFO - [2021-11-17 22:04:16,526] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:16,549] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:16,551] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:04:48,805] {processor.py:163} INFO - Started process (PID=14473) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:48,806] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:04:48,807] {logging_mixin.py:109} INFO - [2021-11-17 22:04:48,807] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:48,836] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:04:48,838] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 22:05:20,343] {processor.py:163} INFO - Started process (PID=14475) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:20,344] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:05:20,344] {logging_mixin.py:109} INFO - [2021-11-17 22:05:20,344] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:20,367] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:20,369] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:05:51,920] {processor.py:163} INFO - Started process (PID=14478) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:51,921] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:05:51,921] {logging_mixin.py:109} INFO - [2021-11-17 22:05:51,921] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:51,942] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:05:51,944] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:06:23,423] {processor.py:163} INFO - Started process (PID=14480) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:23,424] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:06:23,424] {logging_mixin.py:109} INFO - [2021-11-17 22:06:23,424] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:23,446] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:23,447] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:06:54,925] {processor.py:163} INFO - Started process (PID=14482) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:54,926] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:06:54,926] {logging_mixin.py:109} INFO - [2021-11-17 22:06:54,926] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:54,947] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:06:54,948] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:07:26,448] {processor.py:163} INFO - Started process (PID=14484) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:26,448] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:07:26,449] {logging_mixin.py:109} INFO - [2021-11-17 22:07:26,449] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:26,471] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:26,473] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.025 seconds
+[2021-11-17 22:07:58,858] {processor.py:163} INFO - Started process (PID=14486) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:58,859] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:07:58,860] {logging_mixin.py:109} INFO - [2021-11-17 22:07:58,860] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:58,891] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:07:58,893] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 22:08:31,401] {processor.py:163} INFO - Started process (PID=14494) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:08:31,403] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:08:31,404] {logging_mixin.py:109} INFO - [2021-11-17 22:08:31,404] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:08:31,436] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:08:31,438] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.037 seconds
+[2021-11-17 22:09:02,955] {processor.py:163} INFO - Started process (PID=14497) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:02,955] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:09:02,955] {logging_mixin.py:109} INFO - [2021-11-17 22:09:02,955] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:02,976] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:02,978] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:09:35,573] {processor.py:163} INFO - Started process (PID=14503) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:35,575] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:09:35,575] {logging_mixin.py:109} INFO - [2021-11-17 22:09:35,575] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:35,603] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:09:35,605] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 22:10:08,977] {processor.py:163} INFO - Started process (PID=14510) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:08,979] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:10:08,980] {logging_mixin.py:109} INFO - [2021-11-17 22:10:08,980] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:09,012] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:09,013] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.037 seconds
+[2021-11-17 22:10:41,601] {processor.py:163} INFO - Started process (PID=14517) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:41,602] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:10:41,603] {logging_mixin.py:109} INFO - [2021-11-17 22:10:41,603] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:41,634] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:10:41,636] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 22:11:13,059] {processor.py:163} INFO - Started process (PID=14520) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:13,059] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:11:13,059] {logging_mixin.py:109} INFO - [2021-11-17 22:11:13,059] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:13,079] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:13,080] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.022 seconds
+[2021-11-17 22:11:44,499] {processor.py:163} INFO - Started process (PID=14522) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:44,499] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:11:44,500] {logging_mixin.py:109} INFO - [2021-11-17 22:11:44,500] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:44,520] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:11:44,521] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.023 seconds
+[2021-11-17 22:12:15,937] {processor.py:163} INFO - Started process (PID=14529) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:15,937] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:12:15,938] {logging_mixin.py:109} INFO - [2021-11-17 22:12:15,938] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:15,959] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:15,961] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:12:48,630] {processor.py:163} INFO - Started process (PID=14534) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:48,631] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:12:48,631] {logging_mixin.py:109} INFO - [2021-11-17 22:12:48,631] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:48,657] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:12:48,658] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 22:13:21,141] {processor.py:163} INFO - Started process (PID=14537) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:21,142] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:13:21,143] {logging_mixin.py:109} INFO - [2021-11-17 22:13:21,143] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:21,172] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:21,173] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:13:53,726] {processor.py:163} INFO - Started process (PID=14548) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:53,728] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:13:53,728] {logging_mixin.py:109} INFO - [2021-11-17 22:13:53,728] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:53,757] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:13:53,759] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:14:27,265] {processor.py:163} INFO - Started process (PID=14550) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:14:27,267] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:14:27,268] {logging_mixin.py:109} INFO - [2021-11-17 22:14:27,268] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:14:27,305] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:14:27,309] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.045 seconds
+[2021-11-17 22:15:02,656] {processor.py:163} INFO - Started process (PID=14565) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:02,658] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:15:02,659] {logging_mixin.py:109} INFO - [2021-11-17 22:15:02,658] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:02,741] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:02,743] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.088 seconds
+[2021-11-17 22:15:42,968] {processor.py:163} INFO - Started process (PID=14601) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:42,972] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:15:42,975] {logging_mixin.py:109} INFO - [2021-11-17 22:15:42,975] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:43,204] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:15:43,209] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.242 seconds
+[2021-11-17 22:16:20,592] {processor.py:163} INFO - Started process (PID=14613) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:20,595] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:16:20,596] {logging_mixin.py:109} INFO - [2021-11-17 22:16:20,596] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:20,718] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:20,723] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.133 seconds
+[2021-11-17 22:16:56,319] {processor.py:163} INFO - Started process (PID=14618) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:56,320] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:16:56,321] {logging_mixin.py:109} INFO - [2021-11-17 22:16:56,321] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:56,418] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:16:56,429] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.112 seconds
+[2021-11-17 22:17:30,526] {processor.py:163} INFO - Started process (PID=14620) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:17:30,527] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:17:30,532] {logging_mixin.py:109} INFO - [2021-11-17 22:17:30,532] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:17:30,656] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:17:30,660] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.135 seconds
+[2021-11-17 22:18:47,123] {processor.py:163} INFO - Started process (PID=14690) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:18:47,135] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:18:47,155] {logging_mixin.py:109} INFO - [2021-11-17 22:18:47,154] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:18:47,290] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:18:47,293] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.171 seconds
+[2021-11-17 22:19:20,591] {processor.py:163} INFO - Started process (PID=14723) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:20,591] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:19:20,592] {logging_mixin.py:109} INFO - [2021-11-17 22:19:20,592] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:20,623] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:20,625] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 22:19:53,197] {processor.py:163} INFO - Started process (PID=14728) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:53,198] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:19:53,199] {logging_mixin.py:109} INFO - [2021-11-17 22:19:53,199] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:53,355] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:19:53,387] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.191 seconds
+[2021-11-17 22:20:26,024] {processor.py:163} INFO - Started process (PID=14745) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:20:26,025] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:20:26,025] {logging_mixin.py:109} INFO - [2021-11-17 22:20:26,025] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:20:26,053] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:20:26,055] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 22:25:34,203] {processor.py:163} INFO - Started process (PID=14804) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:25:34,206] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:25:34,206] {logging_mixin.py:109} INFO - [2021-11-17 22:25:34,206] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:25:34,249] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:25:34,251] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.048 seconds
+[2021-11-17 22:26:08,232] {processor.py:163} INFO - Started process (PID=14820) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:08,233] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:26:08,235] {logging_mixin.py:109} INFO - [2021-11-17 22:26:08,234] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:08,270] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:08,272] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.040 seconds
+[2021-11-17 22:26:41,182] {processor.py:163} INFO - Started process (PID=14822) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:41,185] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:26:41,186] {logging_mixin.py:109} INFO - [2021-11-17 22:26:41,185] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:41,215] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:26:41,217] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 22:29:26,414] {processor.py:163} INFO - Started process (PID=14889) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:26,417] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:29:26,417] {logging_mixin.py:109} INFO - [2021-11-17 22:29:26,417] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:26,458] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:26,460] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.048 seconds
+[2021-11-17 22:29:58,579] {processor.py:163} INFO - Started process (PID=14938) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:58,581] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:29:58,581] {logging_mixin.py:109} INFO - [2021-11-17 22:29:58,581] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:58,609] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:29:58,610] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 22:30:37,183] {processor.py:163} INFO - Started process (PID=14981) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:30:37,184] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:30:37,185] {logging_mixin.py:109} INFO - [2021-11-17 22:30:37,185] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:30:37,230] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:30:37,241] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.059 seconds
+[2021-11-17 22:31:10,782] {processor.py:163} INFO - Started process (PID=14985) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:10,783] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:31:10,784] {logging_mixin.py:109} INFO - [2021-11-17 22:31:10,784] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:10,815] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:10,817] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 22:31:45,500] {processor.py:163} INFO - Started process (PID=15001) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:45,501] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:31:45,501] {logging_mixin.py:109} INFO - [2021-11-17 22:31:45,501] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:45,530] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:31:45,532] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:32:23,072] {processor.py:163} INFO - Started process (PID=15015) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:23,073] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:32:23,074] {logging_mixin.py:109} INFO - [2021-11-17 22:32:23,073] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:23,101] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:23,104] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:32:56,058] {processor.py:163} INFO - Started process (PID=15025) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:56,058] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:32:56,059] {logging_mixin.py:109} INFO - [2021-11-17 22:32:56,059] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:56,103] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:32:56,106] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.058 seconds
+[2021-11-17 22:33:30,278] {processor.py:163} INFO - Started process (PID=15032) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:33:30,279] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:33:30,279] {logging_mixin.py:109} INFO - [2021-11-17 22:33:30,279] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:33:30,310] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:33:30,312] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 22:34:03,772] {processor.py:163} INFO - Started process (PID=15042) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:03,772] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:34:03,773] {logging_mixin.py:109} INFO - [2021-11-17 22:34:03,773] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:03,804] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:03,806] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 22:34:36,572] {processor.py:163} INFO - Started process (PID=15049) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:36,573] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:34:36,574] {logging_mixin.py:109} INFO - [2021-11-17 22:34:36,574] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:36,600] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:34:36,602] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 22:38:45,295] {processor.py:163} INFO - Started process (PID=15104) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:38:45,297] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:38:45,297] {logging_mixin.py:109} INFO - [2021-11-17 22:38:45,297] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:38:45,326] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:38:45,327] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 22:39:17,716] {processor.py:163} INFO - Started process (PID=15109) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:17,717] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:39:17,717] {logging_mixin.py:109} INFO - [2021-11-17 22:39:17,717] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:17,740] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:17,742] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:39:49,504] {processor.py:163} INFO - Started process (PID=15113) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:49,505] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:39:49,505] {logging_mixin.py:109} INFO - [2021-11-17 22:39:49,505] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:49,526] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:39:49,528] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:40:21,163] {processor.py:163} INFO - Started process (PID=15116) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:21,163] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:40:21,163] {logging_mixin.py:109} INFO - [2021-11-17 22:40:21,163] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:21,187] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:21,188] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:40:53,611] {processor.py:163} INFO - Started process (PID=15123) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:53,612] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:40:53,612] {logging_mixin.py:109} INFO - [2021-11-17 22:40:53,612] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:53,636] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:40:53,637] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:41:25,804] {processor.py:163} INFO - Started process (PID=15126) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:25,805] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:41:25,805] {logging_mixin.py:109} INFO - [2021-11-17 22:41:25,805] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:25,826] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:25,828] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.024 seconds
+[2021-11-17 22:41:57,871] {processor.py:163} INFO - Started process (PID=15131) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:57,871] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:41:57,872] {logging_mixin.py:109} INFO - [2021-11-17 22:41:57,872] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:57,895] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:41:57,896] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:42:29,914] {processor.py:163} INFO - Started process (PID=15137) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:42:29,916] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:42:29,916] {logging_mixin.py:109} INFO - [2021-11-17 22:42:29,916] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:42:29,951] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:42:29,954] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.041 seconds
+[2021-11-17 22:43:05,208] {processor.py:163} INFO - Started process (PID=15142) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:05,209] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:43:05,209] {logging_mixin.py:109} INFO - [2021-11-17 22:43:05,209] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:05,245] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:05,247] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.040 seconds
+[2021-11-17 22:43:37,332] {processor.py:163} INFO - Started process (PID=15162) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:37,332] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:43:37,332] {logging_mixin.py:109} INFO - [2021-11-17 22:43:37,332] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:37,358] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:43:37,359] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 22:44:11,109] {processor.py:163} INFO - Started process (PID=15169) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:11,111] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:44:11,112] {logging_mixin.py:109} INFO - [2021-11-17 22:44:11,112] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:11,141] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:11,143] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 22:44:46,547] {processor.py:163} INFO - Started process (PID=15181) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:46,548] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:44:46,549] {logging_mixin.py:109} INFO - [2021-11-17 22:44:46,549] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:46,573] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:44:46,575] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 22:45:22,643] {processor.py:163} INFO - Started process (PID=15196) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:22,645] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:45:22,646] {logging_mixin.py:109} INFO - [2021-11-17 22:45:22,646] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:22,670] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:22,671] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 22:45:57,117] {processor.py:163} INFO - Started process (PID=15200) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:57,119] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:45:57,119] {logging_mixin.py:109} INFO - [2021-11-17 22:45:57,119] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:57,143] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:45:57,145] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 22:46:32,287] {processor.py:163} INFO - Started process (PID=15202) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:46:32,288] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:46:32,288] {logging_mixin.py:109} INFO - [2021-11-17 22:46:32,288] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:46:32,311] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:46:32,312] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 22:47:06,186] {processor.py:163} INFO - Started process (PID=15205) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:06,187] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:47:06,187] {logging_mixin.py:109} INFO - [2021-11-17 22:47:06,187] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:06,213] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:06,214] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 22:47:42,378] {processor.py:163} INFO - Started process (PID=15211) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:42,378] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:47:42,379] {logging_mixin.py:109} INFO - [2021-11-17 22:47:42,379] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:42,403] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:47:42,405] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 22:48:17,204] {processor.py:163} INFO - Started process (PID=15215) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:48:17,206] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:48:17,206] {logging_mixin.py:109} INFO - [2021-11-17 22:48:17,206] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:48:17,232] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:48:17,233] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-17 22:49:05,486] {processor.py:163} INFO - Started process (PID=15249) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:49:05,488] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:49:05,489] {logging_mixin.py:109} INFO - [2021-11-17 22:49:05,489] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:49:05,584] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:49:05,588] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.103 seconds
+[2021-11-17 22:53:00,684] {processor.py:163} INFO - Started process (PID=15279) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:53:00,686] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:53:00,686] {logging_mixin.py:109} INFO - [2021-11-17 22:53:00,686] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:53:00,719] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:53:00,720] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.038 seconds
+[2021-11-17 22:55:21,148] {processor.py:163} INFO - Started process (PID=15312) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:55:21,150] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:55:21,150] {logging_mixin.py:109} INFO - [2021-11-17 22:55:21,150] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:55:21,174] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:55:21,175] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 22:57:15,372] {processor.py:163} INFO - Started process (PID=15352) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:57:15,374] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:57:15,376] {logging_mixin.py:109} INFO - [2021-11-17 22:57:15,376] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:57:15,455] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:57:15,458] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.086 seconds
+[2021-11-17 22:59:14,088] {processor.py:163} INFO - Started process (PID=15381) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:59:14,090] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 22:59:14,091] {logging_mixin.py:109} INFO - [2021-11-17 22:59:14,090] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:59:14,124] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 22:59:14,126] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.038 seconds
+[2021-11-17 23:00:51,875] {processor.py:163} INFO - Started process (PID=15404) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:00:51,877] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:00:51,877] {logging_mixin.py:109} INFO - [2021-11-17 23:00:51,877] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:00:51,929] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:00:51,931] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.057 seconds
+[2021-11-17 23:02:55,957] {processor.py:163} INFO - Started process (PID=15416) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:02:55,959] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:02:55,960] {logging_mixin.py:109} INFO - [2021-11-17 23:02:55,960] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:02:55,981] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:02:55,983] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 23:03:31,217] {processor.py:163} INFO - Started process (PID=15423) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:03:31,219] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:03:31,220] {logging_mixin.py:109} INFO - [2021-11-17 23:03:31,220] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:03:31,250] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:03:31,252] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 23:04:05,912] {processor.py:163} INFO - Started process (PID=15426) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:05,914] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:04:05,914] {logging_mixin.py:109} INFO - [2021-11-17 23:04:05,914] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:05,943] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:05,945] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:04:42,236] {processor.py:163} INFO - Started process (PID=15432) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:42,237] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:04:42,238] {logging_mixin.py:109} INFO - [2021-11-17 23:04:42,238] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:42,268] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:04:42,269] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:05:17,504] {processor.py:163} INFO - Started process (PID=15437) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:17,505] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:05:17,525] {logging_mixin.py:109} INFO - [2021-11-17 23:05:17,525] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:17,590] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:17,592] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.090 seconds
+[2021-11-17 23:05:53,897] {processor.py:163} INFO - Started process (PID=15444) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:53,898] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:05:53,899] {logging_mixin.py:109} INFO - [2021-11-17 23:05:53,899] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:53,927] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:05:53,929] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 23:06:28,475] {processor.py:163} INFO - Started process (PID=15446) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:06:28,477] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:06:28,477] {logging_mixin.py:109} INFO - [2021-11-17 23:06:28,477] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:06:28,501] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:06:28,502] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 23:07:09,215] {processor.py:163} INFO - Started process (PID=15453) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:09,217] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:07:09,217] {logging_mixin.py:109} INFO - [2021-11-17 23:07:09,217] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:09,257] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:09,258] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.044 seconds
+[2021-11-17 23:07:42,451] {processor.py:163} INFO - Started process (PID=15470) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:42,452] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:07:42,453] {logging_mixin.py:109} INFO - [2021-11-17 23:07:42,453] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:42,483] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:07:42,484] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:08:17,552] {processor.py:163} INFO - Started process (PID=15483) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:08:17,553] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:08:17,554] {logging_mixin.py:109} INFO - [2021-11-17 23:08:17,553] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:08:17,586] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:08:17,588] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.037 seconds
+[2021-11-17 23:09:03,381] {processor.py:163} INFO - Started process (PID=15495) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:03,384] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:09:03,385] {logging_mixin.py:109} INFO - [2021-11-17 23:09:03,385] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:03,457] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:03,463] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.083 seconds
+[2021-11-17 23:09:36,413] {processor.py:163} INFO - Started process (PID=15515) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:36,414] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:09:36,415] {logging_mixin.py:109} INFO - [2021-11-17 23:09:36,415] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:36,444] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:09:36,445] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 23:10:11,085] {processor.py:163} INFO - Started process (PID=15536) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:11,086] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:10:11,087] {logging_mixin.py:109} INFO - [2021-11-17 23:10:11,087] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:11,118] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:11,120] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 23:10:44,338] {processor.py:163} INFO - Started process (PID=15552) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:44,340] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:10:44,340] {logging_mixin.py:109} INFO - [2021-11-17 23:10:44,340] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:44,370] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:10:44,372] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 23:11:18,527] {processor.py:163} INFO - Started process (PID=15560) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:18,529] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:11:18,530] {logging_mixin.py:109} INFO - [2021-11-17 23:11:18,530] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:18,558] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:18,561] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:11:51,498] {processor.py:163} INFO - Started process (PID=15563) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:51,499] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:11:51,499] {logging_mixin.py:109} INFO - [2021-11-17 23:11:51,499] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:51,523] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:11:51,524] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.027 seconds
+[2021-11-17 23:12:24,909] {processor.py:163} INFO - Started process (PID=15574) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:24,910] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:12:24,910] {logging_mixin.py:109} INFO - [2021-11-17 23:12:24,910] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:24,935] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:24,937] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 23:12:59,678] {processor.py:163} INFO - Started process (PID=15580) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:59,680] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:12:59,680] {logging_mixin.py:109} INFO - [2021-11-17 23:12:59,680] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:59,709] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:12:59,712] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:13:15,796] {processor.py:163} INFO - Started process (PID=15589) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:15,797] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:13:15,798] {logging_mixin.py:109} INFO - [2021-11-17 23:13:15,798] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:15,825] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:15,827] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 23:13:49,496] {processor.py:163} INFO - Started process (PID=15603) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:49,497] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:13:49,497] {logging_mixin.py:109} INFO - [2021-11-17 23:13:49,497] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:49,524] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:13:49,525] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-17 23:14:25,096] {processor.py:163} INFO - Started process (PID=15605) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:25,098] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:14:25,099] {logging_mixin.py:109} INFO - [2021-11-17 23:14:25,099] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:25,126] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:25,127] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 23:14:56,671] {processor.py:163} INFO - Started process (PID=15626) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:56,673] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:14:56,674] {logging_mixin.py:109} INFO - [2021-11-17 23:14:56,674] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:56,756] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:14:56,759] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.089 seconds
+[2021-11-17 23:15:35,194] {processor.py:163} INFO - Started process (PID=15640) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:15:35,196] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:15:35,196] {logging_mixin.py:109} INFO - [2021-11-17 23:15:35,196] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:15:35,235] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:15:35,237] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.043 seconds
+[2021-11-17 23:19:55,902] {processor.py:163} INFO - Started process (PID=15664) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:19:55,904] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:19:55,904] {logging_mixin.py:109} INFO - [2021-11-17 23:19:55,904] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:19:55,934] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:19:55,936] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 23:25:23,858] {processor.py:163} INFO - Started process (PID=15693) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:23,860] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:25:23,860] {logging_mixin.py:109} INFO - [2021-11-17 23:25:23,860] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:23,902] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:23,904] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.047 seconds
+[2021-11-17 23:25:59,630] {processor.py:163} INFO - Started process (PID=15699) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:59,632] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:25:59,632] {logging_mixin.py:109} INFO - [2021-11-17 23:25:59,632] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:59,660] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:25:59,661] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-17 23:26:38,503] {processor.py:163} INFO - Started process (PID=15711) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:38,505] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:26:38,505] {logging_mixin.py:109} INFO - [2021-11-17 23:26:38,505] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:38,543] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:38,546] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.043 seconds
+[2021-11-17 23:26:55,029] {processor.py:163} INFO - Started process (PID=15723) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:55,029] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:26:55,030] {logging_mixin.py:109} INFO - [2021-11-17 23:26:55,030] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:55,084] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:26:55,088] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.060 seconds
+[2021-11-17 23:27:36,186] {processor.py:163} INFO - Started process (PID=15738) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:27:36,188] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:27:36,189] {logging_mixin.py:109} INFO - [2021-11-17 23:27:36,189] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:27:36,218] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:27:36,220] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-17 23:28:29,480] {processor.py:163} INFO - Started process (PID=15754) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:28:29,483] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:28:29,484] {logging_mixin.py:109} INFO - [2021-11-17 23:28:29,484] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:28:29,514] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:28:29,516] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-17 23:29:03,469] {processor.py:163} INFO - Started process (PID=15760) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:03,469] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:29:03,470] {logging_mixin.py:109} INFO - [2021-11-17 23:29:03,470] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:03,496] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:03,498] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 23:29:40,499] {processor.py:163} INFO - Started process (PID=15764) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:40,511] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:29:40,512] {logging_mixin.py:109} INFO - [2021-11-17 23:29:40,512] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:40,541] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:29:40,542] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.044 seconds
+[2021-11-17 23:36:10,454] {processor.py:163} INFO - Started process (PID=15827) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:10,456] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:36:10,457] {logging_mixin.py:109} INFO - [2021-11-17 23:36:10,457] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:10,481] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:10,482] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 23:36:44,467] {processor.py:163} INFO - Started process (PID=15831) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:44,468] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:36:44,468] {logging_mixin.py:109} INFO - [2021-11-17 23:36:44,468] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:44,490] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:36:44,491] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.025 seconds
+[2021-11-17 23:37:18,446] {processor.py:163} INFO - Started process (PID=15833) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:18,447] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:37:18,447] {logging_mixin.py:109} INFO - [2021-11-17 23:37:18,447] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:18,470] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:18,471] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 23:37:52,454] {processor.py:163} INFO - Started process (PID=15841) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:52,454] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:37:52,455] {logging_mixin.py:109} INFO - [2021-11-17 23:37:52,455] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:52,477] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:37:52,478] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.025 seconds
+[2021-11-17 23:38:27,136] {processor.py:163} INFO - Started process (PID=15849) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:38:27,138] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:38:27,138] {logging_mixin.py:109} INFO - [2021-11-17 23:38:27,138] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:38:27,162] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:38:27,163] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 23:39:00,329] {processor.py:163} INFO - Started process (PID=15852) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:00,330] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:39:00,330] {logging_mixin.py:109} INFO - [2021-11-17 23:39:00,330] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:00,353] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:00,355] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.026 seconds
+[2021-11-17 23:39:35,369] {processor.py:163} INFO - Started process (PID=15864) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:35,370] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:39:35,370] {logging_mixin.py:109} INFO - [2021-11-17 23:39:35,370] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:35,397] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:39:35,399] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 23:40:11,463] {processor.py:163} INFO - Started process (PID=15869) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:11,464] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:40:11,464] {logging_mixin.py:109} INFO - [2021-11-17 23:40:11,464] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:11,492] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:11,494] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-17 23:40:48,085] {processor.py:163} INFO - Started process (PID=15875) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:48,086] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:40:48,087] {logging_mixin.py:109} INFO - [2021-11-17 23:40:48,087] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:48,120] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:40:48,122] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.038 seconds
+[2021-11-17 23:41:27,951] {processor.py:163} INFO - Started process (PID=15886) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:41:27,952] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:41:27,953] {logging_mixin.py:109} INFO - [2021-11-17 23:41:27,953] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:41:27,977] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:41:27,979] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-17 23:42:06,788] {processor.py:163} INFO - Started process (PID=15901) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:06,791] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:42:06,791] {logging_mixin.py:109} INFO - [2021-11-17 23:42:06,791] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:06,856] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:06,859] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.072 seconds
+[2021-11-17 23:42:43,150] {processor.py:163} INFO - Started process (PID=15915) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:43,152] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:42:43,152] {logging_mixin.py:109} INFO - [2021-11-17 23:42:43,152] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:43,181] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:42:43,182] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-17 23:43:19,110] {processor.py:163} INFO - Started process (PID=15920) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:19,112] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:43:19,113] {logging_mixin.py:109} INFO - [2021-11-17 23:43:19,113] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:19,142] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:19,144] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:43:57,154] {processor.py:163} INFO - Started process (PID=15924) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:57,156] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:43:57,156] {logging_mixin.py:109} INFO - [2021-11-17 23:43:57,156] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:57,215] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:43:57,219] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.066 seconds
+[2021-11-17 23:44:34,915] {processor.py:163} INFO - Started process (PID=15944) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:44:34,916] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:44:34,917] {logging_mixin.py:109} INFO - [2021-11-17 23:44:34,917] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:44:34,947] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:44:34,949] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:45:12,449] {processor.py:163} INFO - Started process (PID=15993) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:12,450] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:45:12,451] {logging_mixin.py:109} INFO - [2021-11-17 23:45:12,451] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:12,484] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:12,486] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.038 seconds
+[2021-11-17 23:45:59,764] {processor.py:163} INFO - Started process (PID=16035) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:59,766] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:45:59,766] {logging_mixin.py:109} INFO - [2021-11-17 23:45:59,766] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:59,843] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:45:59,968] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.205 seconds
+[2021-11-17 23:46:39,911] {processor.py:163} INFO - Started process (PID=16064) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:46:39,912] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:46:39,913] {logging_mixin.py:109} INFO - [2021-11-17 23:46:39,912] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:46:39,970] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:46:39,975] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.065 seconds
+[2021-11-17 23:48:41,555] {processor.py:163} INFO - Started process (PID=16139) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:48:41,556] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:48:41,557] {logging_mixin.py:109} INFO - [2021-11-17 23:48:41,556] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:48:41,623] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:48:41,629] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.075 seconds
+[2021-11-17 23:49:17,854] {processor.py:163} INFO - Started process (PID=16150) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:17,855] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:49:17,857] {logging_mixin.py:109} INFO - [2021-11-17 23:49:17,857] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:17,930] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:17,934] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.081 seconds
+[2021-11-17 23:49:54,182] {processor.py:163} INFO - Started process (PID=16181) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:54,183] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:49:54,183] {logging_mixin.py:109} INFO - [2021-11-17 23:49:54,183] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:54,209] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:49:54,211] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-17 23:50:32,601] {processor.py:163} INFO - Started process (PID=16258) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:50:32,602] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:50:32,602] {logging_mixin.py:109} INFO - [2021-11-17 23:50:32,602] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:50:32,638] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:50:32,640] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.039 seconds
+[2021-11-17 23:51:09,311] {processor.py:163} INFO - Started process (PID=16287) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:09,311] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:51:09,311] {logging_mixin.py:109} INFO - [2021-11-17 23:51:09,311] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:09,342] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:09,344] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-17 23:51:46,207] {processor.py:163} INFO - Started process (PID=16300) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:46,208] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:51:46,208] {logging_mixin.py:109} INFO - [2021-11-17 23:51:46,208] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:46,301] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:51:46,307] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.101 seconds
+[2021-11-17 23:52:55,831] {processor.py:163} INFO - Started process (PID=16381) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:52:55,840] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:52:55,841] {logging_mixin.py:109} INFO - [2021-11-17 23:52:55,841] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:52:55,912] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:52:55,915] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.097 seconds
+[2021-11-17 23:53:33,892] {processor.py:163} INFO - Started process (PID=16402) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:53:33,892] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-17 23:53:33,893] {logging_mixin.py:109} INFO - [2021-11-17 23:53:33,893] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:53:33,921] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-17 23:53:33,923] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.032 seconds
+[2021-11-18 00:01:18,837] {processor.py:163} INFO - Started process (PID=16504) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:18,839] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:01:18,840] {logging_mixin.py:109} INFO - [2021-11-18 00:01:18,840] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:18,863] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:18,865] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-18 00:01:54,796] {processor.py:163} INFO - Started process (PID=16511) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:54,798] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:01:54,799] {logging_mixin.py:109} INFO - [2021-11-18 00:01:54,799] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:54,822] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:01:54,824] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-18 00:02:29,502] {processor.py:163} INFO - Started process (PID=16514) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:02:29,504] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:02:29,504] {logging_mixin.py:109} INFO - [2021-11-18 00:02:29,504] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:02:29,528] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:02:29,530] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.028 seconds
+[2021-11-18 00:03:06,793] {processor.py:163} INFO - Started process (PID=16523) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:06,795] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:03:06,796] {logging_mixin.py:109} INFO - [2021-11-18 00:03:06,796] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:06,823] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:06,826] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-18 00:03:43,546] {processor.py:163} INFO - Started process (PID=16535) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:43,547] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:03:43,548] {logging_mixin.py:109} INFO - [2021-11-18 00:03:43,548] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:43,576] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:03:43,581] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-18 00:04:20,426] {processor.py:163} INFO - Started process (PID=16539) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:20,427] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:04:20,427] {logging_mixin.py:109} INFO - [2021-11-18 00:04:20,427] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:20,458] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:20,460] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-18 00:04:57,309] {processor.py:163} INFO - Started process (PID=16547) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:57,310] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:04:57,310] {logging_mixin.py:109} INFO - [2021-11-18 00:04:57,310] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:57,342] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:04:57,344] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.036 seconds
+[2021-11-18 00:05:32,688] {processor.py:163} INFO - Started process (PID=16564) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:05:32,688] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:05:32,689] {logging_mixin.py:109} INFO - [2021-11-18 00:05:32,689] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:05:32,716] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:05:32,717] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-18 00:06:11,115] {processor.py:163} INFO - Started process (PID=16568) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:11,115] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:06:11,115] {logging_mixin.py:109} INFO - [2021-11-18 00:06:11,115] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:11,153] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:11,155] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.041 seconds
+[2021-11-18 00:06:46,356] {processor.py:163} INFO - Started process (PID=16575) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:46,358] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:06:46,360] {logging_mixin.py:109} INFO - [2021-11-18 00:06:46,360] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:46,402] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:06:46,404] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.048 seconds
+[2021-11-18 00:07:24,448] {processor.py:163} INFO - Started process (PID=16581) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:07:24,450] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:07:24,451] {logging_mixin.py:109} INFO - [2021-11-18 00:07:24,451] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:07:24,476] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:07:24,478] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-18 00:08:03,441] {processor.py:163} INFO - Started process (PID=16600) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:03,443] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:08:03,443] {logging_mixin.py:109} INFO - [2021-11-18 00:08:03,443] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:03,468] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:03,470] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-18 00:08:39,021] {processor.py:163} INFO - Started process (PID=16617) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:39,022] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:08:39,023] {logging_mixin.py:109} INFO - [2021-11-18 00:08:39,022] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:39,057] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:08:39,058] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.038 seconds
+[2021-11-18 00:09:15,577] {processor.py:163} INFO - Started process (PID=16625) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:15,578] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:09:15,579] {logging_mixin.py:109} INFO - [2021-11-18 00:09:15,579] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:15,613] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:15,615] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.039 seconds
+[2021-11-18 00:09:53,793] {processor.py:163} INFO - Started process (PID=16643) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:53,795] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:09:53,796] {logging_mixin.py:109} INFO - [2021-11-18 00:09:53,796] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:53,828] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:09:53,831] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.039 seconds
+[2021-11-18 00:10:28,679] {processor.py:163} INFO - Started process (PID=16649) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:10:28,680] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:10:28,680] {logging_mixin.py:109} INFO - [2021-11-18 00:10:28,680] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:10:28,719] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:10:28,721] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.043 seconds
+[2021-11-18 00:11:07,850] {processor.py:163} INFO - Started process (PID=16663) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:07,851] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:11:07,851] {logging_mixin.py:109} INFO - [2021-11-18 00:11:07,851] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:07,899] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:07,901] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.052 seconds
+[2021-11-18 00:11:42,694] {processor.py:163} INFO - Started process (PID=16675) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:42,695] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:11:42,696] {logging_mixin.py:109} INFO - [2021-11-18 00:11:42,696] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:42,721] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:11:42,723] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-18 00:12:19,425] {processor.py:163} INFO - Started process (PID=16687) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:19,426] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:12:19,427] {logging_mixin.py:109} INFO - [2021-11-18 00:12:19,427] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:19,456] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:19,458] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-18 00:12:56,708] {processor.py:163} INFO - Started process (PID=16692) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:56,708] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:12:56,709] {logging_mixin.py:109} INFO - [2021-11-18 00:12:56,709] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:56,736] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:12:56,738] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.031 seconds
+[2021-11-18 00:13:29,606] {processor.py:163} INFO - Started process (PID=16710) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:13:29,608] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:13:29,609] {logging_mixin.py:109} INFO - [2021-11-18 00:13:29,609] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:13:29,797] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:13:29,803] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.209 seconds
+[2021-11-18 00:15:08,811] {processor.py:163} INFO - Started process (PID=16745) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:08,814] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:15:08,815] {logging_mixin.py:109} INFO - [2021-11-18 00:15:08,815] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:08,871] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:08,874] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.064 seconds
+[2021-11-18 00:15:42,586] {processor.py:163} INFO - Started process (PID=16755) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:42,588] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:15:42,588] {logging_mixin.py:109} INFO - [2021-11-18 00:15:42,588] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:42,614] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:15:42,615] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.029 seconds
+[2021-11-18 00:16:17,953] {processor.py:163} INFO - Started process (PID=16757) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:17,955] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:16:17,955] {logging_mixin.py:109} INFO - [2021-11-18 00:16:17,955] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:17,980] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:17,982] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.030 seconds
+[2021-11-18 00:16:59,801] {processor.py:163} INFO - Started process (PID=16765) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:59,802] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:16:59,802] {logging_mixin.py:109} INFO - [2021-11-18 00:16:59,802] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:59,842] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:16:59,845] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.046 seconds
+[2021-11-18 00:17:21,069] {processor.py:163} INFO - Started process (PID=16781) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:21,069] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:17:21,070] {logging_mixin.py:109} INFO - [2021-11-18 00:17:21,070] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:21,100] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:21,103] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-18 00:17:58,082] {processor.py:163} INFO - Started process (PID=16789) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:58,083] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:17:58,084] {logging_mixin.py:109} INFO - [2021-11-18 00:17:58,084] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:58,128] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:17:58,133] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.051 seconds
+[2021-11-18 00:18:37,303] {processor.py:163} INFO - Started process (PID=16802) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:18:37,304] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:18:37,304] {logging_mixin.py:109} INFO - [2021-11-18 00:18:37,304] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:18:37,429] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:18:37,432] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.131 seconds
+[2021-11-18 00:19:08,747] {processor.py:163} INFO - Started process (PID=16818) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:08,748] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:19:08,749] {logging_mixin.py:109} INFO - [2021-11-18 00:19:08,748] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:08,818] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:08,822] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.076 seconds
+[2021-11-18 00:19:46,972] {processor.py:163} INFO - Started process (PID=16828) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:46,973] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:19:46,974] {logging_mixin.py:109} INFO - [2021-11-18 00:19:46,973] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:47,004] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:19:47,006] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.035 seconds
+[2021-11-18 00:20:51,969] {processor.py:163} INFO - Started process (PID=16856) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:20:51,971] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:20:51,972] {logging_mixin.py:109} INFO - [2021-11-18 00:20:51,972] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:20:52,005] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:20:52,008] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.039 seconds
+[2021-11-18 00:31:21,157] {processor.py:163} INFO - Started process (PID=17070) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:21,184] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:31:21,189] {logging_mixin.py:109} INFO - [2021-11-18 00:31:21,188] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:21,300] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:21,303] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.149 seconds
+[2021-11-18 00:31:54,510] {processor.py:163} INFO - Started process (PID=17079) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:54,512] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:31:54,513] {logging_mixin.py:109} INFO - [2021-11-18 00:31:54,513] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:54,541] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:31:54,544] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-18 00:32:27,174] {processor.py:163} INFO - Started process (PID=17083) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:32:27,176] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:32:27,176] {logging_mixin.py:109} INFO - [2021-11-18 00:32:27,176] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:32:27,209] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:32:27,211] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.037 seconds
+[2021-11-18 00:33:02,721] {processor.py:163} INFO - Started process (PID=17087) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:02,722] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:33:02,723] {logging_mixin.py:109} INFO - [2021-11-18 00:33:02,723] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:02,752] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:02,754] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-18 00:33:39,812] {processor.py:163} INFO - Started process (PID=17096) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:39,813] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:33:39,813] {logging_mixin.py:109} INFO - [2021-11-18 00:33:39,813] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:39,842] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:33:39,844] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-11-18 00:34:15,702] {processor.py:163} INFO - Started process (PID=17102) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:15,703] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:34:15,704] {logging_mixin.py:109} INFO - [2021-11-18 00:34:15,704] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:15,735] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:15,738] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.037 seconds
+[2021-11-18 00:34:57,404] {processor.py:163} INFO - Started process (PID=17117) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:57,406] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:34:57,407] {logging_mixin.py:109} INFO - [2021-11-18 00:34:57,406] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:57,594] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:34:57,600] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.197 seconds
+[2021-11-18 00:35:36,405] {processor.py:163} INFO - Started process (PID=17129) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:35:36,407] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:35:36,407] {logging_mixin.py:109} INFO - [2021-11-18 00:35:36,407] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:35:36,437] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:35:36,439] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.034 seconds
+[2021-11-18 00:36:14,647] {processor.py:163} INFO - Started process (PID=17137) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:36:14,648] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-11-18 00:36:14,649] {logging_mixin.py:109} INFO - [2021-11-18 00:36:14,648] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:36:14,698] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-11-18 00:36:14,702] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.055 seconds

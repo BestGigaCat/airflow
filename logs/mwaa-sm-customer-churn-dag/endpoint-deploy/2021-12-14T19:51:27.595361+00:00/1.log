@@ -1,0 +1,64 @@
+[2021-12-14 11:55:58,003] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.endpoint-deploy manual__2021-12-14T19:51:27.595361+00:00 [queued]>
+[2021-12-14 11:55:58,016] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.endpoint-deploy manual__2021-12-14T19:51:27.595361+00:00 [queued]>
+[2021-12-14 11:55:58,016] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-14 11:55:58,016] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-14 11:55:58,016] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-14 11:55:58,027] {taskinstance.py:1262} INFO - Executing <Task(SageMakerEndpointOperator): endpoint-deploy> on 2021-12-14 19:51:27.595361+00:00
+[2021-12-14 11:55:58,031] {standard_task_runner.py:52} INFO - Started process 30605 to run task
+[2021-12-14 11:55:58,038] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mwaa-sm-customer-churn-dag', 'endpoint-deploy', 'manual__2021-12-14T19:51:27.595361+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/mwaa-customer-churn-dag.py', '--cfg-path', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpzqlk8hxn', '--error-file', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpan7wd3jq']
+[2021-12-14 11:55:58,040] {standard_task_runner.py:77} INFO - Job 61: Subtask endpoint-deploy
+[2021-12-14 11:55:58,077] {logging_mixin.py:109} INFO - Running <TaskInstance: mwaa-sm-customer-churn-dag.endpoint-deploy manual__2021-12-14T19:51:27.595361+00:00 [running]> on host Shimings-MacBook-Air.local
+[2021-12-14 11:55:58,134] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mwaa-sm-customer-churn-dag
+AIRFLOW_CTX_TASK_ID=endpoint-deploy
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-14T19:51:27.595361+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-14T19:51:27.595361+00:00
+[2021-12-14 11:55:58,135] {sagemaker_base.py:89} INFO - Preprocessing the config and doing required s3_operations
+[2021-12-14 11:55:58,136] {sagemaker_base.py:95} INFO - After preprocessing the config is:
+ {
+    "Endpoint": {
+        "EndpointConfigName": "mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122",
+        "EndpointName": "mwaa-sm-endpoint-33166d28e261480fbdb575f192041122"
+    },
+    "EndpointConfig": {
+        "EndpointConfigName": "mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122",
+        "ProductionVariants": [
+            {
+                "InitialInstanceCount": 1,
+                "InitialVariantWeight": 1,
+                "InstanceType": "ml.t2.medium",
+                "ModelName": "mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122",
+                "VariantName": "AllTraffic"
+            }
+        ]
+    },
+    "Model": {
+        "ExecutionRoleArn": "arn:aws:iam::846634201516:role/AmazonMWAA-SageMaker-Role",
+        "ModelName": "mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122",
+        "PrimaryContainer": {
+            "Environment": {},
+            "Image": "433757028032.dkr.ecr.us-west-2.amazonaws.com/xgboost:1",
+            "ModelDataUrl": "s3://shimingr-data/model/mwaa-sm-training-job-58895d91d5894cbcaa6aee0abb482c93/output/model.tar.gz"
+        }
+    }
+}
+[2021-12-14 11:55:58,137] {sagemaker_endpoint.py:115} INFO - Creating SageMaker model mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122.
+[2021-12-14 11:55:58,137] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 11:55:58,142] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 11:55:58,143] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-12-14 11:55:58,143] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 11:55:58,158] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 11:55:58,167] {logging_mixin.py:109} WARNING - /Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py:494 DeprecationWarning: client_type is deprecated. Set client_type from class attribute.
+[2021-12-14 11:55:58,785] {sagemaker_endpoint.py:119} INFO - Creating endpoint config mwaa-sm-customer-churn-model-33166d28e261480fbdb575f192041122.
+[2021-12-14 11:55:58,873] {sagemaker_endpoint.py:131} INFO - Creating SageMaker endpoint mwaa-sm-endpoint-33166d28e261480fbdb575f192041122.
+[2021-12-14 11:56:59,410] {sagemaker.py:737} INFO - Job still running for 60 seconds... current status is Creating
+[2021-12-14 11:57:59,698] {sagemaker.py:737} INFO - Job still running for 120 seconds... current status is Creating
+[2021-12-14 11:58:59,962] {sagemaker.py:737} INFO - Job still running for 180 seconds... current status is Creating
+[2021-12-14 12:00:00,500] {sagemaker.py:737} INFO - Job still running for 240 seconds... current status is InService
+[2021-12-14 12:00:00,502] {sagemaker.py:754} INFO - SageMaker Job completed
+[2021-12-14 12:00:00,899] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=mwaa-sm-customer-churn-dag, task_id=endpoint-deploy, execution_date=20211214T195127, start_date=20211214T195558, end_date=20211214T200000
+[2021-12-14 12:00:00,936] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-14 12:00:00,958] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

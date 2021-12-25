@@ -1,0 +1,21 @@
+[2021-11-17 20:34:48,777] {processor.py:163} INFO - Started process (PID=11209) to work on /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:34:48,778] {processor.py:625} INFO - Processing file /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-11-17 20:34:48,778] {logging_mixin.py:109} INFO - [2021-11-17 20:34:48,778] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:34:48,825] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:34:48,847] {logging_mixin.py:109} INFO - [2021-11-17 20:34:48,846] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 20:34:48,858] {logging_mixin.py:109} INFO - [2021-11-17 20:34:48,858] {dag.py:2928} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-11-17 20:34:48,866] {processor.py:171} INFO - Processing /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.090 seconds
+[2021-11-17 20:36:49,961] {processor.py:163} INFO - Started process (PID=11330) to work on /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:36:49,962] {processor.py:625} INFO - Processing file /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-11-17 20:36:49,963] {logging_mixin.py:109} INFO - [2021-11-17 20:36:49,963] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:36:50,047] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 20:36:50,078] {logging_mixin.py:109} INFO - [2021-11-17 20:36:50,078] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 20:36:50,094] {logging_mixin.py:109} INFO - [2021-11-17 20:36:50,094] {dag.py:2928} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-11-17 20:36:50,105] {processor.py:171} INFO - Processing /Users/shimingr/Desktop/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.145 seconds
+[2021-11-17 21:00:22,427] {processor.py:163} INFO - Started process (PID=11918) to work on /Users/shimingr/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 21:00:22,430] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-11-17 21:00:22,431] {logging_mixin.py:109} INFO - [2021-11-17 21:00:22,430] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 21:00:22,518] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/shimingr/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-11-17 21:00:22,985] {logging_mixin.py:109} INFO - [2021-11-17 21:00:22,984] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 21:00:23,006] {logging_mixin.py:109} INFO - [2021-11-17 21:00:23,006] {dag.py:2928} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-11-17 21:00:23,021] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.595 seconds

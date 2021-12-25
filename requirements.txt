@@ -1,0 +1,6 @@
+boto3==1.17.49
+sagemaker==1.72.0
+s3fs==0.5.1
+apache-airflow==2.2.2
+apache-airflow-providers-amazon==2.4.0
+jupyter==1.0.0

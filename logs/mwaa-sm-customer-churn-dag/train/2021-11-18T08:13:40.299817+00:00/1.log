@@ -1,0 +1,89 @@
+[2021-11-18 00:13:52,559] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T08:13:40.299817+00:00 [queued]>
+[2021-11-18 00:13:52,565] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T08:13:40.299817+00:00 [queued]>
+[2021-11-18 00:13:52,566] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-18 00:13:52,566] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-11-18 00:13:52,566] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-18 00:13:52,575] {taskinstance.py:1262} INFO - Executing <Task(SageMakerTrainingOperator): train> on 2021-11-18 08:13:40.299817+00:00
+[2021-11-18 00:13:52,579] {standard_task_runner.py:52} INFO - Started process 16718 to run task
+[2021-11-18 00:13:52,588] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mwaa-sm-customer-churn-dag', 'train', 'manual__2021-11-18T08:13:40.299817+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/mwaa-customer-churn-dag.py', '--cfg-path', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpaahtbd7f', '--error-file', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpx9jp0l0e']
+[2021-11-18 00:13:52,589] {standard_task_runner.py:77} INFO - Job 49: Subtask train
+[2021-11-18 00:13:52,628] {logging_mixin.py:109} INFO - Running <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T08:13:40.299817+00:00 [running]> on host Shimings-MacBook-Air.local
+[2021-11-18 00:13:52,676] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mwaa-sm-customer-churn-dag
+AIRFLOW_CTX_TASK_ID=train
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-18T08:13:40.299817+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-18T08:13:40.299817+00:00
+[2021-11-18 00:13:52,677] {sagemaker_base.py:89} INFO - Preprocessing the config and doing required s3_operations
+[2021-11-18 00:13:52,678] {sagemaker_base.py:95} INFO - After preprocessing the config is:
+ {
+    "AlgorithmSpecification": {
+        "TrainingImage": "433757028032.dkr.ecr.us-west-2.amazonaws.com/xgboost:1",
+        "TrainingInputMode": "File"
+    },
+    "HyperParameters": {
+        "eta": "0.2",
+        "gamma": "4",
+        "max_depth": "5",
+        "min_child_weight": "6",
+        "num_round": "100",
+        "objective": "binary:logistic",
+        "subsample": "0.8"
+    },
+    "InputDataConfig": [
+        {
+            "ChannelName": "train",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/train/"
+                }
+            }
+        },
+        {
+            "ChannelName": "validation",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/validation/"
+                }
+            }
+        }
+    ],
+    "OutputDataConfig": {
+        "S3OutputPath": "s3://shimingr-data/model/"
+    },
+    "ResourceConfig": {
+        "InstanceCount": 1,
+        "InstanceType": "ml.m5.4xlarge",
+        "VolumeSizeInGB": 5
+    },
+    "RoleArn": "arn:aws:iam::846634201516:role/AmazonMWAA-SageMaker-Role",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 86400
+    },
+    "TrainingJobName": "mwaa-sm-training-job-f17019665443429c83f9ffdd56883a18"
+}
+[2021-11-18 00:13:52,678] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-11-18 00:13:52,683] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-11-18 00:13:52,683] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-11-18 00:13:52,684] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-11-18 00:13:52,697] {base_aws.py:168} INFO - role_arn is None
+[2021-11-18 00:13:52,705] {logging_mixin.py:109} WARNING - /Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py:494 DeprecationWarning: client_type is deprecated. Set client_type from class attribute.
+[2021-11-18 00:13:53,036] {sagemaker_training.py:101} INFO - Creating SageMaker training job mwaa-sm-training-job-f17019665443429c83f9ffdd56883a18.
+[2021-11-18 00:13:53,038] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-11-18 00:13:53,044] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-11-18 00:13:53,045] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-11-18 00:13:53,045] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-11-18 00:13:53,061] {base_aws.py:168} INFO - role_arn is None
+[2021-11-18 00:13:53,889] {sagemaker.py:790} INFO - 2021-11-18 08:13:53 Starting - Starting the training job
+[2021-11-18 00:14:37,962] {local_task_job.py:211} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2021-11-18 00:14:37,978] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 16718
+[2021-11-18 00:14:37,978] {taskinstance.py:1411} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-11-18 00:14:38,009] {process_utils.py:66} INFO - Process psutil.Process(pid=16718, status='terminated', exitcode=0, started='00:13:52') (16718) terminated with exit code 0

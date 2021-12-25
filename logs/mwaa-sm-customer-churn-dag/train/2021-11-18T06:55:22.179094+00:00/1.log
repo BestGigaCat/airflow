@@ -1,0 +1,143 @@
+[2021-11-17 22:55:34,346] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T06:55:22.179094+00:00 [queued]>
+[2021-11-17 22:55:34,355] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T06:55:22.179094+00:00 [queued]>
+[2021-11-17 22:55:34,355] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-17 22:55:34,355] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-11-17 22:55:34,356] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-17 22:55:34,368] {taskinstance.py:1262} INFO - Executing <Task(SageMakerTrainingOperator): train> on 2021-11-18 06:55:22.179094+00:00
+[2021-11-17 22:55:34,375] {standard_task_runner.py:52} INFO - Started process 15316 to run task
+[2021-11-17 22:55:34,395] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mwaa-sm-customer-churn-dag', 'train', 'manual__2021-11-18T06:55:22.179094+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/mwaa-customer-churn-dag.py', '--cfg-path', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmptfb2bi7u', '--error-file', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpizuow0ke']
+[2021-11-17 22:55:34,405] {standard_task_runner.py:77} INFO - Job 21: Subtask train
+[2021-11-17 22:55:34,587] {logging_mixin.py:109} INFO - Running <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-11-18T06:55:22.179094+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-11-17 22:55:34,793] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mwaa-sm-customer-churn-dag
+AIRFLOW_CTX_TASK_ID=train
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-18T06:55:22.179094+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-18T06:55:22.179094+00:00
+[2021-11-17 22:55:34,794] {sagemaker_base.py:89} INFO - Preprocessing the config and doing required s3_operations
+[2021-11-17 22:55:34,796] {sagemaker_base.py:95} INFO - After preprocessing the config is:
+ {
+    "AlgorithmSpecification": {
+        "TrainingImage": "433757028032.dkr.ecr.us-west-2.amazonaws.com/xgboost:1",
+        "TrainingInputMode": "File"
+    },
+    "HyperParameters": {
+        "eta": "0.2",
+        "gamma": "4",
+        "max_depth": "5",
+        "min_child_weight": "6",
+        "num_round": "100",
+        "objective": "binary:logistic",
+        "subsample": "0.8"
+    },
+    "InputDataConfig": [
+        {
+            "ChannelName": "train",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/train/"
+                }
+            }
+        },
+        {
+            "ChannelName": "validation",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/validation/"
+                }
+            }
+        }
+    ],
+    "OutputDataConfig": {
+        "S3OutputPath": "s3://shimingr-data/model/"
+    },
+    "ResourceConfig": {
+        "InstanceCount": 1,
+        "InstanceType": "ml.m5.4xlarge",
+        "VolumeSizeInGB": 5
+    },
+    "RoleArn": "arn:aws:iam::846634201516:role/AmazonMWAA-SageMaker-Role",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 86400
+    },
+    "TrainingJobName": "mwaa-sm-training-job-bfa1b407ae8e48d4857f42fb8cc95e7e"
+}
+[2021-11-17 22:55:34,797] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-11-17 22:55:34,806] {base_aws.py:190} INFO - No credentials retrieved from Connection
+[2021-11-17 22:55:34,808] {base_aws.py:90} INFO - Creating session with aws_access_key_id=None region_name=None
+[2021-11-17 22:55:34,840] {base_aws.py:168} INFO - role_arn is None
+[2021-11-17 22:55:34,856] {logging_mixin.py:109} WARNING - /Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py:494 DeprecationWarning: client_type is deprecated. Set client_type from class attribute.
+[2021-11-17 22:55:34,868] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-11-17 22:55:35,228] {sagemaker_training.py:101} INFO - Creating SageMaker training job mwaa-sm-training-job-bfa1b407ae8e48d4857f42fb8cc95e7e.
+[2021-11-17 22:55:35,229] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-11-17 22:55:35,235] {base_aws.py:190} INFO - No credentials retrieved from Connection
+[2021-11-17 22:55:35,236] {base_aws.py:90} INFO - Creating session with aws_access_key_id=None region_name=None
+[2021-11-17 22:55:35,255] {base_aws.py:168} INFO - role_arn is None
+[2021-11-17 22:55:35,257] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-11-17 22:55:36,067] {sagemaker.py:790} INFO - 2021-11-18 06:55:36 Starting - Starting the training job
+[2021-11-17 22:56:36,070] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-11-17 22:56:36,077] {base_aws.py:190} INFO - No credentials retrieved from Connection
+[2021-11-17 22:56:36,077] {base_aws.py:90} INFO - Creating session with aws_access_key_id=None region_name=None
+[2021-11-17 22:56:36,093] {base_aws.py:168} INFO - role_arn is None
+[2021-11-17 22:56:36,096] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-11-17 22:56:36,740] {sagemaker.py:626} INFO - 2021-11-18 06:55:37 Starting - Launching requested ML instances
+[2021-11-17 22:56:50,945] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 15316
+[2021-11-17 22:56:50,948] {taskinstance.py:1411} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-11-17 22:56:50,962] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/operators/sagemaker_training.py", line 102, in execute
+    response = self.hook.create_training_job(
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/sagemaker.py", line 343, in create_training_job
+    self.check_training_status_with_log(
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/sagemaker.py", line 825, in check_training_status_with_log
+    time.sleep(check_interval)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1413, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-11-17 22:56:50,992] {taskinstance.py:1270} INFO - Marking task as FAILED. dag_id=mwaa-sm-customer-churn-dag, task_id=train, execution_date=20211118T065522, start_date=20211118T065534, end_date=20211118T065650
+[2021-11-17 22:56:51,017] {standard_task_runner.py:88} ERROR - Failed to execute job 21 for task train
+Traceback (most recent call last):
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/operators/sagemaker_training.py", line 102, in execute
+    response = self.hook.create_training_job(
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/sagemaker.py", line 343, in create_training_job
+    self.check_training_status_with_log(
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/sagemaker.py", line 825, in check_training_status_with_log
+    time.sleep(check_interval)
+  File "/Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1413, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-11-17 22:56:51,105] {process_utils.py:66} INFO - Process psutil.Process(pid=15316, status='terminated', exitcode=1, started='22:55:34') (15316) terminated with exit code 1

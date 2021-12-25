@@ -1,0 +1,538 @@
+[2021-12-14 11:50:24,916] {processor.py:163} INFO - Started process (PID=30459) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:50:24,916] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 11:50:24,916] {logging_mixin.py:109} INFO - [2021-12-14 11:50:24,916] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:50:27,073] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,073] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 11:50:27,095] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,095] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 11:50:27,095] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,095] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 11:50:27,106] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,106] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 11:50:27,121] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,121] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 11:50:27,754] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,754] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 11:50:27,754] {logging_mixin.py:109} INFO - [2021-12-14 11:50:27,754] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 11:50:28,011] {logging_mixin.py:109} INFO - [2021-12-14 11:50:28,011] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:50:28,012] {logging_mixin.py:109} INFO - [2021-12-14 11:50:28,012] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:50:28,012] {logging_mixin.py:109} INFO - [2021-12-14 11:50:28,012] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:50:28,925] {logging_mixin.py:109} INFO - [2021-12-14 11:50:28,925] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 11:50:28,925] {logging_mixin.py:109} INFO - [2021-12-14 11:50:28,925] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:50:28,944] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:50:29,390] {logging_mixin.py:109} INFO - [2021-12-14 11:50:29,389] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 11:50:29,406] {logging_mixin.py:109} INFO - [2021-12-14 11:50:29,406] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 11:50:29,423] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 4.508 seconds
+[2021-12-14 11:51:03,082] {processor.py:163} INFO - Started process (PID=30483) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:51:03,084] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 11:51:03,084] {logging_mixin.py:109} INFO - [2021-12-14 11:51:03,084] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:51:04,551] {logging_mixin.py:109} INFO - [2021-12-14 11:51:04,551] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 11:51:04,576] {logging_mixin.py:109} INFO - [2021-12-14 11:51:04,576] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 11:51:04,576] {logging_mixin.py:109} INFO - [2021-12-14 11:51:04,576] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 11:51:04,591] {logging_mixin.py:109} INFO - [2021-12-14 11:51:04,590] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 11:51:04,610] {logging_mixin.py:109} INFO - [2021-12-14 11:51:04,610] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 11:51:05,240] {logging_mixin.py:109} INFO - [2021-12-14 11:51:05,240] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 11:51:05,240] {logging_mixin.py:109} INFO - [2021-12-14 11:51:05,240] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 11:51:05,493] {logging_mixin.py:109} INFO - [2021-12-14 11:51:05,492] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:51:05,493] {logging_mixin.py:109} INFO - [2021-12-14 11:51:05,493] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:51:05,493] {logging_mixin.py:109} INFO - [2021-12-14 11:51:05,493] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:51:06,151] {logging_mixin.py:109} INFO - [2021-12-14 11:51:06,151] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 11:51:06,152] {logging_mixin.py:109} INFO - [2021-12-14 11:51:06,151] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:51:06,179] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:51:06,724] {logging_mixin.py:109} INFO - [2021-12-14 11:51:06,724] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 11:51:06,739] {logging_mixin.py:109} INFO - [2021-12-14 11:51:06,739] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 11:51:06,750] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.668 seconds
+[2021-12-14 11:55:50,593] {processor.py:163} INFO - Started process (PID=30602) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:55:50,595] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 11:55:50,595] {logging_mixin.py:109} INFO - [2021-12-14 11:55:50,595] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:55:51,881] {logging_mixin.py:109} INFO - [2021-12-14 11:55:51,880] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 11:55:51,912] {logging_mixin.py:109} INFO - [2021-12-14 11:55:51,911] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 11:55:51,912] {logging_mixin.py:109} INFO - [2021-12-14 11:55:51,912] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 11:55:51,926] {logging_mixin.py:109} INFO - [2021-12-14 11:55:51,925] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 11:55:51,940] {logging_mixin.py:109} INFO - [2021-12-14 11:55:51,940] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 11:55:52,649] {logging_mixin.py:109} INFO - [2021-12-14 11:55:52,649] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 11:55:52,649] {logging_mixin.py:109} INFO - [2021-12-14 11:55:52,649] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 11:55:52,804] {logging_mixin.py:109} INFO - [2021-12-14 11:55:52,804] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:55:52,804] {logging_mixin.py:109} INFO - [2021-12-14 11:55:52,804] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:55:52,804] {logging_mixin.py:109} INFO - [2021-12-14 11:55:52,804] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 11:55:53,495] {logging_mixin.py:109} INFO - [2021-12-14 11:55:53,494] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 11:55:53,495] {logging_mixin.py:109} INFO - [2021-12-14 11:55:53,495] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 11:55:53,525] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 11:55:54,105] {logging_mixin.py:109} INFO - [2021-12-14 11:55:54,104] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 11:55:54,130] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.538 seconds
+[2021-12-14 12:00:06,641] {processor.py:163} INFO - Started process (PID=30716) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:06,643] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:00:06,644] {logging_mixin.py:109} INFO - [2021-12-14 12:00:06,644] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:07,736] {logging_mixin.py:109} INFO - [2021-12-14 12:00:07,735] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:00:07,769] {logging_mixin.py:109} INFO - [2021-12-14 12:00:07,769] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:00:07,769] {logging_mixin.py:109} INFO - [2021-12-14 12:00:07,769] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:00:07,786] {logging_mixin.py:109} INFO - [2021-12-14 12:00:07,786] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:00:07,802] {logging_mixin.py:109} INFO - [2021-12-14 12:00:07,802] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:00:08,353] {logging_mixin.py:109} INFO - [2021-12-14 12:00:08,353] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:00:08,353] {logging_mixin.py:109} INFO - [2021-12-14 12:00:08,353] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:00:08,488] {logging_mixin.py:109} INFO - [2021-12-14 12:00:08,488] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:00:08,488] {logging_mixin.py:109} INFO - [2021-12-14 12:00:08,488] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:00:08,488] {logging_mixin.py:109} INFO - [2021-12-14 12:00:08,488] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:00:09,199] {logging_mixin.py:109} INFO - [2021-12-14 12:00:09,199] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:00:09,199] {logging_mixin.py:109} INFO - [2021-12-14 12:00:09,199] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:00:09,224] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:09,723] {logging_mixin.py:109} INFO - [2021-12-14 12:00:09,723] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:00:09,746] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.105 seconds
+[2021-12-14 12:00:42,972] {processor.py:163} INFO - Started process (PID=30722) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:42,973] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:00:42,974] {logging_mixin.py:109} INFO - [2021-12-14 12:00:42,974] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:44,863] {logging_mixin.py:109} INFO - [2021-12-14 12:00:44,862] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:00:44,950] {logging_mixin.py:109} INFO - [2021-12-14 12:00:44,950] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:00:44,950] {logging_mixin.py:109} INFO - [2021-12-14 12:00:44,950] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:00:44,966] {logging_mixin.py:109} INFO - [2021-12-14 12:00:44,966] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:00:45,006] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,006] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:00:45,687] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,687] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:00:45,687] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,687] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:00:45,809] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,809] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:00:45,809] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,809] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:00:45,809] {logging_mixin.py:109} INFO - [2021-12-14 12:00:45,809] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:00:46,538] {logging_mixin.py:109} INFO - [2021-12-14 12:00:46,538] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:00:46,538] {logging_mixin.py:109} INFO - [2021-12-14 12:00:46,538] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:00:46,581] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:00:47,088] {logging_mixin.py:109} INFO - [2021-12-14 12:00:47,088] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:00:47,100] {logging_mixin.py:109} INFO - [2021-12-14 12:00:47,100] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:00:47,113] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 4.141 seconds
+[2021-12-14 12:01:18,925] {processor.py:163} INFO - Started process (PID=30733) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:18,925] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:01:18,925] {logging_mixin.py:109} INFO - [2021-12-14 12:01:18,925] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:19,446] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,445] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:01:19,468] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,468] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:01:19,468] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,468] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:01:19,479] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,479] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:01:19,492] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,491] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:01:19,922] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,922] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:01:19,922] {logging_mixin.py:109} INFO - [2021-12-14 12:01:19,922] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:01:20,043] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,043] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:01:20,043] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,043] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:01:20,043] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,043] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:01:20,695] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,695] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:01:20,695] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,695] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:01:20,708] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:20,999] {logging_mixin.py:109} INFO - [2021-12-14 12:01:20,999] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:01:21,008] {logging_mixin.py:109} INFO - [2021-12-14 12:01:21,008] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:01:21,018] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 2.094 seconds
+[2021-12-14 12:01:54,329] {processor.py:163} INFO - Started process (PID=30748) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:54,329] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:01:54,330] {logging_mixin.py:109} INFO - [2021-12-14 12:01:54,330] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:55,676] {logging_mixin.py:109} INFO - [2021-12-14 12:01:55,676] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:01:55,699] {logging_mixin.py:109} INFO - [2021-12-14 12:01:55,699] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:01:55,699] {logging_mixin.py:109} INFO - [2021-12-14 12:01:55,699] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:01:55,713] {logging_mixin.py:109} INFO - [2021-12-14 12:01:55,713] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:01:55,728] {logging_mixin.py:109} INFO - [2021-12-14 12:01:55,728] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:01:56,475] {logging_mixin.py:109} INFO - [2021-12-14 12:01:56,475] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:01:56,475] {logging_mixin.py:109} INFO - [2021-12-14 12:01:56,475] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:01:56,687] {logging_mixin.py:109} INFO - [2021-12-14 12:01:56,686] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:01:56,687] {logging_mixin.py:109} INFO - [2021-12-14 12:01:56,687] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:01:56,687] {logging_mixin.py:109} INFO - [2021-12-14 12:01:56,687] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:01:57,402] {logging_mixin.py:109} INFO - [2021-12-14 12:01:57,402] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:01:57,403] {logging_mixin.py:109} INFO - [2021-12-14 12:01:57,403] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:01:57,439] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:01:58,009] {logging_mixin.py:109} INFO - [2021-12-14 12:01:58,009] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:01:58,018] {logging_mixin.py:109} INFO - [2021-12-14 12:01:58,018] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:01:58,027] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.699 seconds
+[2021-12-14 12:02:31,240] {processor.py:163} INFO - Started process (PID=30756) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:02:31,241] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:02:31,242] {logging_mixin.py:109} INFO - [2021-12-14 12:02:31,242] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:02:32,468] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,468] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:02:32,491] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,491] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:02:32,492] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,491] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:02:32,503] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,503] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:02:32,518] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,518] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:02:32,962] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,962] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:02:32,963] {logging_mixin.py:109} INFO - [2021-12-14 12:02:32,963] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:02:33,041] {logging_mixin.py:109} INFO - [2021-12-14 12:02:33,041] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:02:33,041] {logging_mixin.py:109} INFO - [2021-12-14 12:02:33,041] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:02:33,041] {logging_mixin.py:109} INFO - [2021-12-14 12:02:33,041] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:02:33,688] {logging_mixin.py:109} INFO - [2021-12-14 12:02:33,687] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:02:33,688] {logging_mixin.py:109} INFO - [2021-12-14 12:02:33,688] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:02:33,729] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:02:34,239] {logging_mixin.py:109} INFO - [2021-12-14 12:02:34,238] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:02:34,252] {logging_mixin.py:109} INFO - [2021-12-14 12:02:34,252] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:02:34,265] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.026 seconds
+[2021-12-14 12:03:08,276] {processor.py:163} INFO - Started process (PID=30763) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:08,278] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:03:08,279] {logging_mixin.py:109} INFO - [2021-12-14 12:03:08,279] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:09,928] {logging_mixin.py:109} INFO - [2021-12-14 12:03:09,927] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:03:09,975] {logging_mixin.py:109} INFO - [2021-12-14 12:03:09,975] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:03:09,976] {logging_mixin.py:109} INFO - [2021-12-14 12:03:09,976] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:03:10,004] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,004] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:03:10,035] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,035] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:03:10,617] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,617] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:03:10,617] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,617] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:03:10,771] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,771] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:03:10,772] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,772] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:03:10,772] {logging_mixin.py:109} INFO - [2021-12-14 12:03:10,772] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:03:11,423] {logging_mixin.py:109} INFO - [2021-12-14 12:03:11,423] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:03:11,423] {logging_mixin.py:109} INFO - [2021-12-14 12:03:11,423] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:03:11,460] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:12,045] {logging_mixin.py:109} INFO - [2021-12-14 12:03:12,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:03:12,052] {logging_mixin.py:109} INFO - [2021-12-14 12:03:12,052] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:03:12,060] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.786 seconds
+[2021-12-14 12:03:46,317] {processor.py:163} INFO - Started process (PID=30771) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:46,318] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:03:46,319] {logging_mixin.py:109} INFO - [2021-12-14 12:03:46,319] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:47,665] {logging_mixin.py:109} INFO - [2021-12-14 12:03:47,665] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:03:47,696] {logging_mixin.py:109} INFO - [2021-12-14 12:03:47,696] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:03:47,696] {logging_mixin.py:109} INFO - [2021-12-14 12:03:47,696] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:03:47,712] {logging_mixin.py:109} INFO - [2021-12-14 12:03:47,712] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:03:47,731] {logging_mixin.py:109} INFO - [2021-12-14 12:03:47,731] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:03:48,211] {logging_mixin.py:109} INFO - [2021-12-14 12:03:48,211] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:03:48,212] {logging_mixin.py:109} INFO - [2021-12-14 12:03:48,212] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:03:48,359] {logging_mixin.py:109} INFO - [2021-12-14 12:03:48,359] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:03:48,360] {logging_mixin.py:109} INFO - [2021-12-14 12:03:48,360] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:03:48,360] {logging_mixin.py:109} INFO - [2021-12-14 12:03:48,360] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:03:49,080] {logging_mixin.py:109} INFO - [2021-12-14 12:03:49,079] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:03:49,080] {logging_mixin.py:109} INFO - [2021-12-14 12:03:49,080] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:03:49,109] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:03:49,700] {logging_mixin.py:109} INFO - [2021-12-14 12:03:49,699] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:03:49,729] {logging_mixin.py:109} INFO - [2021-12-14 12:03:49,729] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:03:49,743] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.427 seconds
+[2021-12-14 12:04:25,376] {processor.py:163} INFO - Started process (PID=30789) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:04:25,380] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:04:25,386] {logging_mixin.py:109} INFO - [2021-12-14 12:04:25,385] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:04:28,516] {logging_mixin.py:109} INFO - [2021-12-14 12:04:28,516] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:04:28,540] {logging_mixin.py:109} INFO - [2021-12-14 12:04:28,540] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:04:28,540] {logging_mixin.py:109} INFO - [2021-12-14 12:04:28,540] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:04:28,553] {logging_mixin.py:109} INFO - [2021-12-14 12:04:28,553] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:04:28,569] {logging_mixin.py:109} INFO - [2021-12-14 12:04:28,569] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:04:29,402] {logging_mixin.py:109} INFO - [2021-12-14 12:04:29,402] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:04:29,402] {logging_mixin.py:109} INFO - [2021-12-14 12:04:29,402] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:04:29,530] {logging_mixin.py:109} INFO - [2021-12-14 12:04:29,530] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:04:29,531] {logging_mixin.py:109} INFO - [2021-12-14 12:04:29,530] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:04:29,531] {logging_mixin.py:109} INFO - [2021-12-14 12:04:29,531] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:04:30,461] {logging_mixin.py:109} INFO - [2021-12-14 12:04:30,461] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:04:30,462] {logging_mixin.py:109} INFO - [2021-12-14 12:04:30,462] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:04:30,488] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:04:31,230] {logging_mixin.py:109} INFO - [2021-12-14 12:04:31,230] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:04:31,245] {logging_mixin.py:109} INFO - [2021-12-14 12:04:31,245] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:04:31,262] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 5.888 seconds
+[2021-12-14 12:05:04,295] {processor.py:163} INFO - Started process (PID=30804) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:04,296] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:05:04,297] {logging_mixin.py:109} INFO - [2021-12-14 12:05:04,297] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:05,453] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,453] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:05:05,483] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,483] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:05:05,483] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,483] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:05:05,498] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,498] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:05:05,513] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,513] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:05:05,942] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,942] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:05:05,943] {logging_mixin.py:109} INFO - [2021-12-14 12:05:05,943] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:05:06,058] {logging_mixin.py:109} INFO - [2021-12-14 12:05:06,057] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:05:06,058] {logging_mixin.py:109} INFO - [2021-12-14 12:05:06,058] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:05:06,058] {logging_mixin.py:109} INFO - [2021-12-14 12:05:06,058] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:05:06,761] {logging_mixin.py:109} INFO - [2021-12-14 12:05:06,761] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:05:06,761] {logging_mixin.py:109} INFO - [2021-12-14 12:05:06,761] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:05:06,784] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:07,309] {logging_mixin.py:109} INFO - [2021-12-14 12:05:07,308] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:05:07,323] {logging_mixin.py:109} INFO - [2021-12-14 12:05:07,323] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:05:07,333] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.038 seconds
+[2021-12-14 12:05:40,613] {processor.py:163} INFO - Started process (PID=30809) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:40,614] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:05:40,615] {logging_mixin.py:109} INFO - [2021-12-14 12:05:40,614] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:42,098] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,098] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:05:42,165] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,165] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:05:42,166] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,166] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:05:42,187] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,187] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:05:42,214] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,214] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:05:42,819] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,819] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:05:42,819] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,819] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:05:42,967] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,967] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:05:42,967] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,967] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:05:42,967] {logging_mixin.py:109} INFO - [2021-12-14 12:05:42,967] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:05:43,712] {logging_mixin.py:109} INFO - [2021-12-14 12:05:43,712] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:05:43,712] {logging_mixin.py:109} INFO - [2021-12-14 12:05:43,712] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:05:43,749] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:05:44,438] {logging_mixin.py:109} INFO - [2021-12-14 12:05:44,437] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:05:44,448] {logging_mixin.py:109} INFO - [2021-12-14 12:05:44,448] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:05:44,457] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.845 seconds
+[2021-12-14 12:06:16,345] {processor.py:163} INFO - Started process (PID=30815) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:16,346] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:06:16,346] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,346] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:16,887] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,887] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:06:16,912] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,912] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:06:16,912] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,912] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:06:16,922] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,922] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:06:16,936] {logging_mixin.py:109} INFO - [2021-12-14 12:06:16,936] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:06:17,818] {logging_mixin.py:109} INFO - [2021-12-14 12:06:17,818] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:06:17,818] {logging_mixin.py:109} INFO - [2021-12-14 12:06:17,818] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:06:17,913] {logging_mixin.py:109} INFO - [2021-12-14 12:06:17,913] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:06:17,913] {logging_mixin.py:109} INFO - [2021-12-14 12:06:17,913] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:06:17,914] {logging_mixin.py:109} INFO - [2021-12-14 12:06:17,914] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:06:18,539] {logging_mixin.py:109} INFO - [2021-12-14 12:06:18,539] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:06:18,539] {logging_mixin.py:109} INFO - [2021-12-14 12:06:18,539] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:06:18,551] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:18,767] {logging_mixin.py:109} INFO - [2021-12-14 12:06:18,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:06:18,776] {logging_mixin.py:109} INFO - [2021-12-14 12:06:18,776] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:06:18,784] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 2.440 seconds
+[2021-12-14 12:06:52,031] {processor.py:163} INFO - Started process (PID=30823) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:52,032] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:06:52,033] {logging_mixin.py:109} INFO - [2021-12-14 12:06:52,033] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:53,452] {logging_mixin.py:109} INFO - [2021-12-14 12:06:53,451] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:06:53,476] {logging_mixin.py:109} INFO - [2021-12-14 12:06:53,476] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:06:53,476] {logging_mixin.py:109} INFO - [2021-12-14 12:06:53,476] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:06:53,490] {logging_mixin.py:109} INFO - [2021-12-14 12:06:53,490] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:06:53,505] {logging_mixin.py:109} INFO - [2021-12-14 12:06:53,505] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:06:54,053] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,053] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:06:54,053] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,053] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:06:54,169] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,168] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:06:54,169] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,169] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:06:54,169] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,169] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:06:54,861] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,861] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:06:54,861] {logging_mixin.py:109} INFO - [2021-12-14 12:06:54,861] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:06:54,893] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:06:55,429] {logging_mixin.py:109} INFO - [2021-12-14 12:06:55,429] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:06:55,438] {logging_mixin.py:109} INFO - [2021-12-14 12:06:55,438] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:06:55,446] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.416 seconds
+[2021-12-14 12:07:27,939] {processor.py:163} INFO - Started process (PID=30829) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:07:27,941] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:07:27,942] {logging_mixin.py:109} INFO - [2021-12-14 12:07:27,941] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:07:29,196] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,196] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:07:29,218] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,218] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:07:29,219] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,219] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:07:29,230] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,230] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:07:29,244] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,244] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:07:29,694] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,694] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:07:29,694] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,694] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:07:29,779] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,779] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:07:29,779] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,779] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:07:29,779] {logging_mixin.py:109} INFO - [2021-12-14 12:07:29,779] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:07:30,386] {logging_mixin.py:109} INFO - [2021-12-14 12:07:30,386] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:07:30,386] {logging_mixin.py:109} INFO - [2021-12-14 12:07:30,386] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:07:30,411] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:07:30,893] {logging_mixin.py:109} INFO - [2021-12-14 12:07:30,892] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:07:30,903] {logging_mixin.py:109} INFO - [2021-12-14 12:07:30,903] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:07:30,915] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 2.976 seconds
+[2021-12-14 12:08:03,729] {processor.py:163} INFO - Started process (PID=30837) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:03,731] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:08:03,731] {logging_mixin.py:109} INFO - [2021-12-14 12:08:03,731] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:04,975] {logging_mixin.py:109} INFO - [2021-12-14 12:08:04,975] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:08:04,997] {logging_mixin.py:109} INFO - [2021-12-14 12:08:04,997] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:08:04,997] {logging_mixin.py:109} INFO - [2021-12-14 12:08:04,997] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:08:05,010] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,010] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:08:05,023] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,023] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:08:05,464] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,464] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:08:05,464] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,464] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:08:05,623] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,622] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:08:05,623] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,623] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:08:05,623] {logging_mixin.py:109} INFO - [2021-12-14 12:08:05,623] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:08:06,319] {logging_mixin.py:109} INFO - [2021-12-14 12:08:06,319] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:08:06,319] {logging_mixin.py:109} INFO - [2021-12-14 12:08:06,319] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:08:06,348] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:06,865] {logging_mixin.py:109} INFO - [2021-12-14 12:08:06,865] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:08:06,874] {logging_mixin.py:109} INFO - [2021-12-14 12:08:06,874] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:08:06,884] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.155 seconds
+[2021-12-14 12:08:41,068] {processor.py:163} INFO - Started process (PID=30860) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:41,070] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:08:41,071] {logging_mixin.py:109} INFO - [2021-12-14 12:08:41,071] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:43,650] {logging_mixin.py:109} INFO - [2021-12-14 12:08:43,650] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:08:43,763] {logging_mixin.py:109} INFO - [2021-12-14 12:08:43,763] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:08:43,763] {logging_mixin.py:109} INFO - [2021-12-14 12:08:43,763] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:08:43,805] {logging_mixin.py:109} INFO - [2021-12-14 12:08:43,804] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:08:43,877] {logging_mixin.py:109} INFO - [2021-12-14 12:08:43,877] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:08:44,722] {logging_mixin.py:109} INFO - [2021-12-14 12:08:44,722] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:08:44,722] {logging_mixin.py:109} INFO - [2021-12-14 12:08:44,722] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:08:44,992] {logging_mixin.py:109} INFO - [2021-12-14 12:08:44,992] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:08:44,993] {logging_mixin.py:109} INFO - [2021-12-14 12:08:44,992] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:08:44,994] {logging_mixin.py:109} INFO - [2021-12-14 12:08:44,993] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:08:46,384] {logging_mixin.py:109} INFO - [2021-12-14 12:08:46,384] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:08:46,385] {logging_mixin.py:109} INFO - [2021-12-14 12:08:46,385] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:08:46,409] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:08:46,972] {logging_mixin.py:109} INFO - [2021-12-14 12:08:46,971] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:08:46,991] {logging_mixin.py:109} INFO - [2021-12-14 12:08:46,991] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:08:47,012] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 5.944 seconds
+[2021-12-14 12:09:21,518] {processor.py:163} INFO - Started process (PID=30881) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:09:21,519] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:09:21,519] {logging_mixin.py:109} INFO - [2021-12-14 12:09:21,519] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:09:22,978] {logging_mixin.py:109} INFO - [2021-12-14 12:09:22,978] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:09:23,005] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,005] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:09:23,015] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,014] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:09:23,035] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,035] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:09:23,052] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,052] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:09:23,501] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,501] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:09:23,517] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,516] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:09:23,653] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,653] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:09:23,653] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,653] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:09:23,653] {logging_mixin.py:109} INFO - [2021-12-14 12:09:23,653] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:09:24,348] {logging_mixin.py:109} INFO - [2021-12-14 12:09:24,348] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:09:24,348] {logging_mixin.py:109} INFO - [2021-12-14 12:09:24,348] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:09:24,372] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:09:24,988] {logging_mixin.py:109} INFO - [2021-12-14 12:09:24,987] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:09:25,000] {logging_mixin.py:109} INFO - [2021-12-14 12:09:25,000] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:09:25,018] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.501 seconds
+[2021-12-14 12:10:00,202] {processor.py:163} INFO - Started process (PID=30898) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:00,203] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:10:00,204] {logging_mixin.py:109} INFO - [2021-12-14 12:10:00,204] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:01,528] {logging_mixin.py:109} INFO - [2021-12-14 12:10:01,527] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:10:01,555] {logging_mixin.py:109} INFO - [2021-12-14 12:10:01,555] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:10:01,555] {logging_mixin.py:109} INFO - [2021-12-14 12:10:01,555] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:10:01,571] {logging_mixin.py:109} INFO - [2021-12-14 12:10:01,570] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:10:01,588] {logging_mixin.py:109} INFO - [2021-12-14 12:10:01,588] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:10:02,158] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,158] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:10:02,158] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,158] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:10:02,316] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,316] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:10:02,317] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,317] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:10:02,317] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,317] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:10:02,975] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,975] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:10:02,975] {logging_mixin.py:109} INFO - [2021-12-14 12:10:02,975] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:10:03,001] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:03,815] {logging_mixin.py:109} INFO - [2021-12-14 12:10:03,815] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:10:03,837] {logging_mixin.py:109} INFO - [2021-12-14 12:10:03,836] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:10:03,848] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.647 seconds
+[2021-12-14 12:10:37,145] {processor.py:163} INFO - Started process (PID=30921) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:37,146] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:10:37,147] {logging_mixin.py:109} INFO - [2021-12-14 12:10:37,147] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:38,757] {logging_mixin.py:109} INFO - [2021-12-14 12:10:38,757] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:10:38,802] {logging_mixin.py:109} INFO - [2021-12-14 12:10:38,802] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:10:38,802] {logging_mixin.py:109} INFO - [2021-12-14 12:10:38,802] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:10:38,818] {logging_mixin.py:109} INFO - [2021-12-14 12:10:38,818] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:10:38,836] {logging_mixin.py:109} INFO - [2021-12-14 12:10:38,836] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:10:39,516] {logging_mixin.py:109} INFO - [2021-12-14 12:10:39,516] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:10:39,516] {logging_mixin.py:109} INFO - [2021-12-14 12:10:39,516] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:10:39,631] {logging_mixin.py:109} INFO - [2021-12-14 12:10:39,631] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:10:39,631] {logging_mixin.py:109} INFO - [2021-12-14 12:10:39,631] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:10:39,631] {logging_mixin.py:109} INFO - [2021-12-14 12:10:39,631] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:10:40,298] {logging_mixin.py:109} INFO - [2021-12-14 12:10:40,298] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:10:40,298] {logging_mixin.py:109} INFO - [2021-12-14 12:10:40,298] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:10:40,326] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:10:40,860] {logging_mixin.py:109} INFO - [2021-12-14 12:10:40,860] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:10:40,870] {logging_mixin.py:109} INFO - [2021-12-14 12:10:40,870] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:10:40,878] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.734 seconds
+[2021-12-14 12:11:13,991] {processor.py:163} INFO - Started process (PID=30936) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:13,992] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:11:13,993] {logging_mixin.py:109} INFO - [2021-12-14 12:11:13,992] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:15,446] {logging_mixin.py:109} INFO - [2021-12-14 12:11:15,445] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:11:15,503] {logging_mixin.py:109} INFO - [2021-12-14 12:11:15,503] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:11:15,503] {logging_mixin.py:109} INFO - [2021-12-14 12:11:15,503] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:11:15,523] {logging_mixin.py:109} INFO - [2021-12-14 12:11:15,523] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:11:15,542] {logging_mixin.py:109} INFO - [2021-12-14 12:11:15,541] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:11:16,035] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,034] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:11:16,035] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,035] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:11:16,184] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,184] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:11:16,184] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,184] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:11:16,184] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,184] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:11:16,813] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,813] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:11:16,814] {logging_mixin.py:109} INFO - [2021-12-14 12:11:16,814] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:11:16,839] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:17,376] {logging_mixin.py:109} INFO - [2021-12-14 12:11:17,375] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:11:17,396] {logging_mixin.py:109} INFO - [2021-12-14 12:11:17,396] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:11:17,429] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.440 seconds
+[2021-12-14 12:11:51,135] {processor.py:163} INFO - Started process (PID=30947) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:51,137] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:11:51,138] {logging_mixin.py:109} INFO - [2021-12-14 12:11:51,138] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:52,907] {logging_mixin.py:109} INFO - [2021-12-14 12:11:52,907] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:11:52,927] {logging_mixin.py:109} INFO - [2021-12-14 12:11:52,927] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:11:52,927] {logging_mixin.py:109} INFO - [2021-12-14 12:11:52,927] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:11:52,941] {logging_mixin.py:109} INFO - [2021-12-14 12:11:52,940] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:11:52,956] {logging_mixin.py:109} INFO - [2021-12-14 12:11:52,956] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:11:53,519] {logging_mixin.py:109} INFO - [2021-12-14 12:11:53,519] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:11:53,519] {logging_mixin.py:109} INFO - [2021-12-14 12:11:53,519] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:11:53,786] {logging_mixin.py:109} INFO - [2021-12-14 12:11:53,786] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:11:53,786] {logging_mixin.py:109} INFO - [2021-12-14 12:11:53,786] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:11:53,786] {logging_mixin.py:109} INFO - [2021-12-14 12:11:53,786] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:11:54,503] {logging_mixin.py:109} INFO - [2021-12-14 12:11:54,503] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:11:54,503] {logging_mixin.py:109} INFO - [2021-12-14 12:11:54,503] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:11:54,532] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:11:55,167] {logging_mixin.py:109} INFO - [2021-12-14 12:11:55,167] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:11:55,181] {logging_mixin.py:109} INFO - [2021-12-14 12:11:55,180] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:11:55,197] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 4.063 seconds
+[2021-12-14 12:12:28,821] {processor.py:163} INFO - Started process (PID=30955) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:12:28,823] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:12:28,823] {logging_mixin.py:109} INFO - [2021-12-14 12:12:28,823] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:12:30,173] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,172] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:12:30,197] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,197] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:12:30,197] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,197] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:12:30,208] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,208] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:12:30,223] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,223] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:12:30,697] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,697] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:12:30,698] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,697] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:12:30,838] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,838] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:12:30,838] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,838] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:12:30,839] {logging_mixin.py:109} INFO - [2021-12-14 12:12:30,839] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:12:31,546] {logging_mixin.py:109} INFO - [2021-12-14 12:12:31,545] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:12:31,546] {logging_mixin.py:109} INFO - [2021-12-14 12:12:31,546] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:12:31,569] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:12:32,068] {logging_mixin.py:109} INFO - [2021-12-14 12:12:32,068] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:12:32,081] {logging_mixin.py:109} INFO - [2021-12-14 12:12:32,081] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:12:32,094] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 3.273 seconds
+[2021-12-14 12:13:07,468] {processor.py:163} INFO - Started process (PID=30965) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:07,470] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:13:07,470] {logging_mixin.py:109} INFO - [2021-12-14 12:13:07,470] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:09,305] {logging_mixin.py:109} INFO - [2021-12-14 12:13:09,304] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:13:09,373] {logging_mixin.py:109} INFO - [2021-12-14 12:13:09,372] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:13:09,373] {logging_mixin.py:109} INFO - [2021-12-14 12:13:09,373] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:13:09,400] {logging_mixin.py:109} INFO - [2021-12-14 12:13:09,399] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:13:09,431] {logging_mixin.py:109} INFO - [2021-12-14 12:13:09,430] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:13:10,003] {logging_mixin.py:109} INFO - [2021-12-14 12:13:10,003] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:13:10,004] {logging_mixin.py:109} INFO - [2021-12-14 12:13:10,004] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:13:10,189] {logging_mixin.py:109} INFO - [2021-12-14 12:13:10,189] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:13:10,189] {logging_mixin.py:109} INFO - [2021-12-14 12:13:10,189] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:13:10,189] {logging_mixin.py:109} INFO - [2021-12-14 12:13:10,189] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:13:16,316] {logging_mixin.py:109} INFO - [2021-12-14 12:13:16,316] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:13:16,317] {logging_mixin.py:109} INFO - [2021-12-14 12:13:16,317] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:13:16,349] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:17,022] {logging_mixin.py:109} INFO - [2021-12-14 12:13:17,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:13:17,037] {logging_mixin.py:109} INFO - [2021-12-14 12:13:17,037] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:13:17,053] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 9.585 seconds
+[2021-12-14 12:13:51,903] {processor.py:163} INFO - Started process (PID=30985) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:51,905] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:13:51,906] {logging_mixin.py:109} INFO - [2021-12-14 12:13:51,906] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:53,438] {logging_mixin.py:109} INFO - [2021-12-14 12:13:53,438] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:13:53,474] {logging_mixin.py:109} INFO - [2021-12-14 12:13:53,474] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:13:53,475] {logging_mixin.py:109} INFO - [2021-12-14 12:13:53,474] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:13:53,494] {logging_mixin.py:109} INFO - [2021-12-14 12:13:53,493] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:13:53,513] {logging_mixin.py:109} INFO - [2021-12-14 12:13:53,513] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:13:54,064] {logging_mixin.py:109} INFO - [2021-12-14 12:13:54,063] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:13:54,064] {logging_mixin.py:109} INFO - [2021-12-14 12:13:54,064] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:13:54,244] {logging_mixin.py:109} INFO - [2021-12-14 12:13:54,244] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:13:54,244] {logging_mixin.py:109} INFO - [2021-12-14 12:13:54,244] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:13:54,245] {logging_mixin.py:109} INFO - [2021-12-14 12:13:54,244] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:13:55,246] {logging_mixin.py:109} INFO - [2021-12-14 12:13:55,246] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:13:55,248] {logging_mixin.py:109} INFO - [2021-12-14 12:13:55,248] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:13:55,301] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:13:56,885] {logging_mixin.py:109} INFO - [2021-12-14 12:13:56,885] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:13:56,917] {logging_mixin.py:109} INFO - [2021-12-14 12:13:56,917] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:13:56,969] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 5.067 seconds
+[2021-12-14 12:14:37,696] {processor.py:163} INFO - Started process (PID=31001) to work on /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:14:37,701] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py for tasks to queue
+[2021-12-14 12:14:37,702] {logging_mixin.py:109} INFO - [2021-12-14 12:14:37,702] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:14:43,389] {logging_mixin.py:109} INFO - [2021-12-14 12:14:43,389] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-14 12:14:43,730] {logging_mixin.py:109} INFO - [2021-12-14 12:14:43,730] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-14 12:14:43,730] {logging_mixin.py:109} INFO - [2021-12-14 12:14:43,730] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-14 12:14:43,867] {logging_mixin.py:109} INFO - [2021-12-14 12:14:43,866] {base_aws.py:168} INFO - role_arn is None
+[2021-12-14 12:14:43,914] {logging_mixin.py:109} INFO - [2021-12-14 12:14:43,914] {credentials.py:1222} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-12-14 12:14:44,878] {logging_mixin.py:109} INFO - [2021-12-14 12:14:44,877] {amazon_estimator.py:619} WARNING - 'get_image_uri' method will be deprecated in favor of 'ImageURIProvider' class in SageMaker Python SDK v2.
+[2021-12-14 12:14:44,879] {logging_mixin.py:109} INFO - [2021-12-14 12:14:44,879] {amazon_estimator.py:668} WARNING - There is a more up to date SageMaker XGBoost image. To use the newer image, please set 'repo_version'='1.0-1'. For example:
+	get_image_uri(region, 'xgboost', '1.0-1').
+[2021-12-14 12:14:45,230] {logging_mixin.py:109} INFO - [2021-12-14 12:14:45,230] {estimator.py:1307} WARNING - Parameter image_name will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:14:45,231] {logging_mixin.py:109} INFO - [2021-12-14 12:14:45,231] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:14:45,231] {logging_mixin.py:109} INFO - [2021-12-14 12:14:45,231] {inputs.py:83} WARNING - 's3_input' class will be renamed to 'TrainingInput' in SageMaker Python SDK v2.
+[2021-12-14 12:14:46,335] {logging_mixin.py:109} INFO - [2021-12-14 12:14:46,335] {estimator.py:758} WARNING - No finished training job found associated with this estimator. Please make sure this estimator is only used for building workflow config
+[2021-12-14 12:14:46,335] {logging_mixin.py:109} INFO - [2021-12-14 12:14:46,335] {model.py:111} WARNING - Parameter image will be renamed to image_uri in SageMaker Python SDK v2.
+[2021-12-14 12:14:46,370] {processor.py:637} INFO - DAG(s) dict_keys(['mwaa-sm-customer-churn-dag']) retrieved from /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py
+[2021-12-14 12:14:47,932] {logging_mixin.py:109} INFO - [2021-12-14 12:14:47,932] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-14 12:14:47,963] {logging_mixin.py:109} INFO - [2021-12-14 12:14:47,962] {dag.py:2928} INFO - Setting next_dagrun for mwaa-sm-customer-churn-dag to None
+[2021-12-14 12:14:48,018] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py took 10.323 seconds
