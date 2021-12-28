@@ -1,0 +1,308 @@
+[2021-12-27 22:28:51,088] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-12-28T06:27:24.516645+00:00 [queued]>
+[2021-12-27 22:28:51,098] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-12-28T06:27:24.516645+00:00 [queued]>
+[2021-12-27 22:28:51,098] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 22:28:51,098] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-27 22:28:51,098] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 22:28:51,109] {taskinstance.py:1262} INFO - Executing <Task(SageMakerTrainingOperator): train> on 2021-12-28 06:27:24.516645+00:00
+[2021-12-27 22:28:51,112] {standard_task_runner.py:52} INFO - Started process 37865 to run task
+[2021-12-27 22:28:51,128] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mwaa-sm-customer-churn-dag', 'train', 'manual__2021-12-28T06:27:24.516645+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/mwaa-customer-churn-dag.py', '--cfg-path', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmp3tqkgue3', '--error-file', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpm8w33kv3']
+[2021-12-27 22:28:51,130] {standard_task_runner.py:77} INFO - Job 72: Subtask train
+[2021-12-27 22:28:51,180] {logging_mixin.py:109} INFO - Running <TaskInstance: mwaa-sm-customer-churn-dag.train manual__2021-12-28T06:27:24.516645+00:00 [running]> on host Shimings-MacBook-Air.local
+[2021-12-27 22:28:51,235] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mwaa-sm-customer-churn-dag
+AIRFLOW_CTX_TASK_ID=train
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-28T06:27:24.516645+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-28T06:27:24.516645+00:00
+[2021-12-27 22:28:51,238] {sagemaker_base.py:89} INFO - Preprocessing the config and doing required s3_operations
+[2021-12-27 22:28:51,241] {sagemaker_base.py:95} INFO - After preprocessing the config is:
+ {
+    "AlgorithmSpecification": {
+        "TrainingImage": "433757028032.dkr.ecr.us-west-2.amazonaws.com/xgboost:1",
+        "TrainingInputMode": "File"
+    },
+    "HyperParameters": {
+        "eta": "0.2",
+        "gamma": "4",
+        "max_depth": "5",
+        "min_child_weight": "6",
+        "num_round": "100",
+        "objective": "binary:logistic",
+        "subsample": "0.8"
+    },
+    "InputDataConfig": [
+        {
+            "ChannelName": "train",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/train/"
+                }
+            }
+        },
+        {
+            "ChannelName": "validation",
+            "ContentType": "text/csv",
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataDistributionType": "FullyReplicated",
+                    "S3DataType": "S3Prefix",
+                    "S3Uri": "s3://shimingr-data/processed/validation/"
+                }
+            }
+        }
+    ],
+    "OutputDataConfig": {
+        "S3OutputPath": "s3://shimingr-data/model/"
+    },
+    "ResourceConfig": {
+        "InstanceCount": 1,
+        "InstanceType": "ml.m5.4xlarge",
+        "VolumeSizeInGB": 5
+    },
+    "RoleArn": "arn:aws:iam::846634201516:role/AmazonMWAA-SageMaker-Role",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 86400
+    },
+    "TrainingJobName": "mwaa-sm-training-job-8ce4be76e85648b6971b211b914d9325"
+}
+[2021-12-27 22:28:51,242] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-27 22:28:51,248] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-27 22:28:51,249] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-12-27 22:28:51,249] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-27 22:28:51,279] {base_aws.py:168} INFO - role_arn is None
+[2021-12-27 22:28:51,287] {logging_mixin.py:109} WARNING - /Users/shimingr/mlops/airflow/venv2/lib/python3.9/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py:494 DeprecationWarning: client_type is deprecated. Set client_type from class attribute.
+[2021-12-27 22:28:51,605] {sagemaker_training.py:101} INFO - Creating SageMaker training job mwaa-sm-training-job-8ce4be76e85648b6971b211b914d9325.
+[2021-12-27 22:28:51,607] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-27 22:28:51,612] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-27 22:28:51,613] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-12-27 22:28:51,613] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-27 22:28:51,632] {base_aws.py:168} INFO - role_arn is None
+[2021-12-27 22:28:52,560] {sagemaker.py:790} INFO - 2021-12-28 06:28:52 Starting - Starting the training job
+[2021-12-27 22:29:52,562] {base_aws.py:401} INFO - Airflow Connection: aws_conn_id=aws_default
+[2021-12-27 22:29:52,570] {base_aws.py:177} INFO - Credentials retrieved from login
+[2021-12-27 22:29:52,571] {base_aws.py:88} INFO - Retrieving region_name from Connection.extra_config['region_name']
+[2021-12-27 22:29:52,571] {base_aws.py:90} INFO - Creating session with aws_access_key_id=AKIA4KH2UWGWPERNDCH5 region_name=us-west-2
+[2021-12-27 22:29:52,598] {base_aws.py:168} INFO - role_arn is None
+[2021-12-27 22:29:53,367] {sagemaker.py:626} INFO - 2021-12-28 06:29:52 Starting - Preparing the instances for training
+[2021-12-27 22:31:54,332] {sagemaker.py:609} INFO - Arguments: train
+[2021-12-27 22:31:54,336] {sagemaker.py:609} INFO - [2021-12-28:06:31:38:INFO] Running standalone xgboost training.
+[2021-12-27 22:31:54,337] {sagemaker.py:609} INFO - [2021-12-28:06:31:38:INFO] File size need to be processed in the node: 0.47mb. Available memory size in the node: 55409.99mb
+[2021-12-27 22:31:54,338] {sagemaker.py:609} INFO - [2021-12-28:06:31:38:INFO] Determined delimiter of CSV input is ','
+[2021-12-27 22:31:54,338] {sagemaker.py:609} INFO - [06:31:38] S3DistributionType set as FullyReplicated
+[2021-12-27 22:31:54,339] {sagemaker.py:609} INFO - [06:31:38] 2140x69 matrix with 147660 entries loaded from /opt/ml/input/data/train?format=csv&label_column=0&delimiter=,
+[2021-12-27 22:31:54,339] {sagemaker.py:609} INFO - [2021-12-28:06:31:38:INFO] Determined delimiter of CSV input is ','
+[2021-12-27 22:31:54,340] {sagemaker.py:609} INFO - [06:31:38] S3DistributionType set as FullyReplicated
+[2021-12-27 22:31:54,340] {sagemaker.py:609} INFO - [06:31:38] 859x69 matrix with 59271 entries loaded from /opt/ml/input/data/validation?format=csv&label_column=0&delimiter=,
+[2021-12-27 22:31:54,340] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,341] {sagemaker.py:609} INFO - [0]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,342] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,343] {sagemaker.py:609} INFO - [1]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,343] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,344] {sagemaker.py:609} INFO - [2]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,344] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,345] {sagemaker.py:609} INFO - [3]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,345] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,346] {sagemaker.py:609} INFO - [4]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,346] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,347] {sagemaker.py:609} INFO - [5]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,347] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,348] {sagemaker.py:609} INFO - [6]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,348] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,349] {sagemaker.py:609} INFO - [7]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,349] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,350] {sagemaker.py:609} INFO - [8]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,351] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,351] {sagemaker.py:609} INFO - [9]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,352] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,352] {sagemaker.py:609} INFO - [10]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,353] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,354] {sagemaker.py:609} INFO - [11]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,354] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,354] {sagemaker.py:609} INFO - [12]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,355] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,355] {sagemaker.py:609} INFO - [13]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,356] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,356] {sagemaker.py:609} INFO - [14]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,356] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,357] {sagemaker.py:609} INFO - [15]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,358] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,359] {sagemaker.py:609} INFO - [16]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,359] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,360] {sagemaker.py:609} INFO - [17]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,360] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,361] {sagemaker.py:609} INFO - [18]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,361] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,362] {sagemaker.py:609} INFO - [19]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,362] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,363] {sagemaker.py:609} INFO - [20]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,363] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,364] {sagemaker.py:609} INFO - [21]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,364] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,365] {sagemaker.py:609} INFO - [22]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,365] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,366] {sagemaker.py:609} INFO - [23]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,367] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,368] {sagemaker.py:609} INFO - [24]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,368] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,368] {sagemaker.py:609} INFO - [25]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,369] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,369] {sagemaker.py:609} INFO - [26]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,370] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,370] {sagemaker.py:609} INFO - [27]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,371] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,371] {sagemaker.py:609} INFO - [28]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,371] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,372] {sagemaker.py:609} INFO - [29]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,372] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,373] {sagemaker.py:609} INFO - [30]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,374] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,375] {sagemaker.py:609} INFO - [31]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,375] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,376] {sagemaker.py:609} INFO - [32]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,376] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,376] {sagemaker.py:609} INFO - [33]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,377] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,377] {sagemaker.py:609} INFO - [34]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,378] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,378] {sagemaker.py:609} INFO - [35]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,378] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,379] {sagemaker.py:609} INFO - [36]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,379] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,380] {sagemaker.py:609} INFO - [37]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,380] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,381] {sagemaker.py:609} INFO - [38]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,381] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,383] {sagemaker.py:609} INFO - [39]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,384] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,384] {sagemaker.py:609} INFO - [40]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,384] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,385] {sagemaker.py:609} INFO - [41]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,385] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,386] {sagemaker.py:609} INFO - [42]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,386] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,387] {sagemaker.py:609} INFO - [43]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,387] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,387] {sagemaker.py:609} INFO - [44]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,388] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,388] {sagemaker.py:609} INFO - [45]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,388] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,389] {sagemaker.py:609} INFO - [46]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,389] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,389] {sagemaker.py:609} INFO - [47]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,390] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,390] {sagemaker.py:609} INFO - [48]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,391] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,391] {sagemaker.py:609} INFO - [49]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,392] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,393] {sagemaker.py:609} INFO - [50]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,393] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,394] {sagemaker.py:609} INFO - [51]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,394] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,394] {sagemaker.py:609} INFO - [52]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,395] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,395] {sagemaker.py:609} INFO - [53]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,395] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,396] {sagemaker.py:609} INFO - [54]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,396] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,397] {sagemaker.py:609} INFO - [55]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,397] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,397] {sagemaker.py:609} INFO - [56]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,398] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,398] {sagemaker.py:609} INFO - [57]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,399] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,399] {sagemaker.py:609} INFO - [58]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,400] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,401] {sagemaker.py:609} INFO - [59]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,401] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,402] {sagemaker.py:609} INFO - [60]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,402] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,403] {sagemaker.py:609} INFO - [61]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,403] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,404] {sagemaker.py:609} INFO - [62]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,404] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,404] {sagemaker.py:609} INFO - [63]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,405] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,405] {sagemaker.py:609} INFO - [64]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,405] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,406] {sagemaker.py:609} INFO - [65]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,406] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,406] {sagemaker.py:609} INFO - [66]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,407] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,407] {sagemaker.py:609} INFO - [67]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,407] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,408] {sagemaker.py:609} INFO - [68]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,408] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,409] {sagemaker.py:609} INFO - [69]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,410] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,410] {sagemaker.py:609} INFO - [70]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,410] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,411] {sagemaker.py:609} INFO - [71]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,411] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,411] {sagemaker.py:609} INFO - [72]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,412] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,412] {sagemaker.py:609} INFO - [73]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,412] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,413] {sagemaker.py:609} INFO - [74]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,413] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,414] {sagemaker.py:609} INFO - [75]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,414] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,415] {sagemaker.py:609} INFO - [76]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,415] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,415] {sagemaker.py:609} INFO - [77]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,416] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,416] {sagemaker.py:609} INFO - [78]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,417] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,417] {sagemaker.py:609} INFO - [79]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,418] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,418] {sagemaker.py:609} INFO - [80]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,419] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,419] {sagemaker.py:609} INFO - [81]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,420] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,420] {sagemaker.py:609} INFO - [82]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,420] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,421] {sagemaker.py:609} INFO - [83]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,421] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,422] {sagemaker.py:609} INFO - [84]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,422] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,423] {sagemaker.py:609} INFO - [85]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,423] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,424] {sagemaker.py:609} INFO - [86]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,426] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,429] {sagemaker.py:609} INFO - [87]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,430] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,430] {sagemaker.py:609} INFO - [88]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,431] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,431] {sagemaker.py:609} INFO - [89]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,433] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,435] {sagemaker.py:609} INFO - [90]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,435] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,436] {sagemaker.py:609} INFO - [91]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,436] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,437] {sagemaker.py:609} INFO - [92]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,437] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,438] {sagemaker.py:609} INFO - [93]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,438] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,438] {sagemaker.py:609} INFO - [94]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,439] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,440] {sagemaker.py:609} INFO - [95]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,441] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,442] {sagemaker.py:609} INFO - [96]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,442] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,443] {sagemaker.py:609} INFO - [97]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,444] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,444] {sagemaker.py:609} INFO - [98]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,445] {sagemaker.py:609} INFO - [06:31:38] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
+[2021-12-27 22:31:54,446] {sagemaker.py:609} INFO - [99]#011train-error:0#011validation-error:0
+[2021-12-27 22:31:54,890] {sagemaker.py:626} INFO - 2021-12-28 06:31:50 Downloading - Downloading input data
+2021-12-28 06:31:50 Training - Training image download completed. Training in progress.
+2021-12-28 06:31:50 Uploading - Uploading generated training model
+2021-12-28 06:31:50 Completed - Training job completed
+[2021-12-27 22:32:55,304] {sagemaker.py:852} INFO - Billable seconds: 51
+[2021-12-27 22:32:55,646] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=mwaa-sm-customer-churn-dag, task_id=train, execution_date=20211228T062724, start_date=20211228T062851, end_date=20211228T063255
+[2021-12-27 22:32:55,694] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-27 22:32:55,734] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

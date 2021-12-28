@@ -1,0 +1,22 @@
+[2021-12-27 22:01:28,293] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.process manual__2021-12-28T06:01:18.233391+00:00 [queued]>
+[2021-12-27 22:01:28,326] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: mwaa-sm-customer-churn-dag.process manual__2021-12-28T06:01:18.233391+00:00 [queued]>
+[2021-12-27 22:01:28,326] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 22:01:28,326] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-27 22:01:28,327] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-27 22:01:28,346] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): process> on 2021-12-28 06:01:18.233391+00:00
+[2021-12-27 22:01:28,354] {standard_task_runner.py:52} INFO - Started process 37354 to run task
+[2021-12-27 22:01:28,362] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mwaa-sm-customer-churn-dag', 'process', 'manual__2021-12-28T06:01:18.233391+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/mwaa-customer-churn-dag.py', '--cfg-path', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpl2j3ne39', '--error-file', '/var/folders/m8/kcmtvg3x5639v8tv9jcxd6700000gn/T/tmpt74zr2zt']
+[2021-12-27 22:01:28,364] {standard_task_runner.py:77} INFO - Job 63: Subtask process
+[2021-12-27 22:01:28,431] {logging_mixin.py:109} INFO - Running <TaskInstance: mwaa-sm-customer-churn-dag.process manual__2021-12-28T06:01:18.233391+00:00 [running]> on host Shimings-MacBook-Air.local
+[2021-12-27 22:01:28,492] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mwaa-sm-customer-churn-dag
+AIRFLOW_CTX_TASK_ID=process
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-28T06:01:18.233391+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-28T06:01:18.233391+00:00
+[2021-12-27 22:01:29,133] {python.py:152} INFO - Done. Returned value was: None
+[2021-12-27 22:01:29,161] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=mwaa-sm-customer-churn-dag, task_id=process, execution_date=20211228T060118, start_date=20211228T060128, end_date=20211228T060129
+[2021-12-27 22:01:29,216] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-27 22:01:29,287] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
