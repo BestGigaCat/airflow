@@ -4765,3 +4765,1040 @@ File Path                                                      PID    Runtime   
 ================================================================================
 [2021-12-27 23:01:40,658] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
 [2021-12-27 23:01:40,659] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-28 06:56:40.659183+00:00
+[2021-12-27 23:01:50,779] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-27 23:01:50,779] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-28 06:56:50.779540+00:00
+[2021-12-27 23:02:00,912] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-27 23:02:00,913] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-28 06:57:00.913364+00:00
+[2021-12-27 23:02:09,136] {manager.py:485} INFO - Exiting gracefully upon receiving signal 15
+[2021-12-28 16:06:56,861] {manager.py:504} INFO - Processing files using up to 1 processes at a time 
+[2021-12-28 16:06:56,864] {manager.py:505} INFO - Process each file at most once every 30 seconds
+[2021-12-28 16:06:56,865] {manager.py:506} INFO - Checking for new files in /Users/shimingr/mlops/airflow/dags every 300 seconds
+[2021-12-28 16:06:56,865] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:06:56,882] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:06:56,978] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:06:56,978] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:01:56.978920+00:00
+[2021-12-28 16:07:16,068] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:07:16,071] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:02:16.071712+00:00
+[2021-12-28 16:07:24,339] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  10.52s          2021-12-29T00:07:14
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.36s           2021-12-29T00:07:03
+================================================================================
+[2021-12-28 16:07:26,195] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:07:26,196] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:02:26.196648+00:00
+[2021-12-28 16:18:31,806] {manager.py:485} INFO - Exiting gracefully upon receiving signal 15
+[2021-12-28 16:18:39,057] {manager.py:504} INFO - Processing files using up to 1 processes at a time 
+[2021-12-28 16:18:39,057] {manager.py:505} INFO - Process each file at most once every 30 seconds
+[2021-12-28 16:18:39,057] {manager.py:506} INFO - Checking for new files in /Users/shimingr/mlops/airflow/dags every 300 seconds
+[2021-12-28 16:18:39,057] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:18:39,091] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:18:39,232] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:18:39,233] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:13:39.233177+00:00
+[2021-12-28 16:22:59,669] {manager.py:485} INFO - Exiting gracefully upon receiving signal 15
+[2021-12-28 16:23:06,004] {manager.py:504} INFO - Processing files using up to 1 processes at a time 
+[2021-12-28 16:23:06,004] {manager.py:505} INFO - Process each file at most once every 30 seconds
+[2021-12-28 16:23:06,005] {manager.py:506} INFO - Checking for new files in /Users/shimingr/mlops/airflow/dags every 300 seconds
+[2021-12-28 16:23:06,005] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:23:06,030] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:23:06,189] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:23:06,189] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:18:06.189563+00:00
+[2021-12-28 16:29:29,406] {manager.py:485} INFO - Exiting gracefully upon receiving signal 15
+[2021-12-28 16:29:33,191] {manager.py:504} INFO - Processing files using up to 1 processes at a time 
+[2021-12-28 16:29:33,191] {manager.py:505} INFO - Process each file at most once every 30 seconds
+[2021-12-28 16:29:33,191] {manager.py:506} INFO - Checking for new files in /Users/shimingr/mlops/airflow/dags every 300 seconds
+[2021-12-28 16:29:33,192] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:29:33,204] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:29:33,312] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:29:33,313] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:24:33.313233+00:00
+[2021-12-28 16:29:44,147] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:29:44,150] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:24:44.150539+00:00
+[2021-12-28 16:29:54,527] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:29:54,527] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:24:54.527868+00:00
+[2021-12-28 16:30:00,186] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.66s           2021-12-29T00:29:42
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.92s           2021-12-29T00:29:39
+================================================================================
+[2021-12-28 16:30:04,656] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:30:04,656] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:25:04.656571+00:00
+[2021-12-28 16:30:14,946] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:30:14,948] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:25:14.948798+00:00
+[2021-12-28 16:30:25,078] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:30:25,080] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:25:25.080038+00:00
+[2021-12-28 16:30:31,178] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.61s           2021-12-29T00:30:16
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.17s           2021-12-29T00:30:13
+================================================================================
+[2021-12-28 16:30:35,194] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:30:35,195] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:25:35.195368+00:00
+[2021-12-28 16:30:50,021] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:30:50,024] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:25:50.024105+00:00
+[2021-12-28 16:31:00,145] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:00,146] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:00.146267+00:00
+[2021-12-28 16:31:01,202] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.66s           2021-12-29T00:30:51
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.70s           2021-12-29T00:30:48
+================================================================================
+[2021-12-28 16:31:10,262] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:10,263] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:10.263423+00:00
+[2021-12-28 16:31:24,567] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:24,569] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:24.569219+00:00
+[2021-12-28 16:31:31,720] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.60s           2021-12-29T00:31:26
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.43s           2021-12-29T00:31:23
+================================================================================
+[2021-12-28 16:31:34,690] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:34,691] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:34.691467+00:00
+[2021-12-28 16:31:44,808] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:44,808] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:44.808905+00:00
+[2021-12-28 16:31:59,058] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:31:59,060] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:26:59.060554+00:00
+[2021-12-28 16:32:01,771] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.65s           2021-12-29T00:32:00
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.38s           2021-12-29T00:31:57
+================================================================================
+[2021-12-28 16:32:09,184] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:32:09,184] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:27:09.184740+00:00
+[2021-12-28 16:32:19,308] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:32:19,309] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:27:19.309528+00:00
+[2021-12-28 16:32:33,960] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.65s           2021-12-29T00:32:00
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.84s           2021-12-29T00:32:33
+================================================================================
+[2021-12-28 16:32:35,024] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:32:35,025] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:27:35.025493+00:00
+[2021-12-28 16:32:45,150] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:32:45,151] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:27:45.151878+00:00
+[2021-12-28 16:32:55,292] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:32:55,293] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:27:55.293267+00:00
+[2021-12-28 16:33:09,142] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.75s           2021-12-29T00:32:36
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.07s           2021-12-29T00:33:09
+================================================================================
+[2021-12-28 16:33:10,209] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:33:10,210] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:28:10.210516+00:00
+[2021-12-28 16:33:20,360] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:33:20,361] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:28:20.361165+00:00
+[2021-12-28 16:33:30,519] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:33:30,520] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:28:30.520733+00:00
+[2021-12-28 16:33:45,610] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.65s           2021-12-29T00:33:11
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.34s           2021-12-29T00:33:45
+================================================================================
+[2021-12-28 16:33:46,672] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:33:46,673] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:28:46.673346+00:00
+[2021-12-28 16:33:56,799] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:33:56,800] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:28:56.800655+00:00
+[2021-12-28 16:34:06,927] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:34:06,928] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:29:06.928429+00:00
+[2021-12-28 16:34:21,328] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.92s           2021-12-29T00:33:48
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.60s           2021-12-29T00:34:21
+================================================================================
+[2021-12-28 16:34:22,398] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:34:22,399] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:29:22.399241+00:00
+[2021-12-28 16:34:32,531] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:34:32,532] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:29:32.532678+00:00
+[2021-12-28 16:34:33,593] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:34:33,599] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:34:42,661] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:34:42,661] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:29:42.661728+00:00
+[2021-12-28 16:34:57,949] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.63s           2021-12-29T00:34:24
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.50s           2021-12-29T00:34:57
+================================================================================
+[2021-12-28 16:34:59,018] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:34:59,018] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:29:59.018574+00:00
+[2021-12-28 16:35:09,136] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:35:09,138] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:30:09.138029+00:00
+[2021-12-28 16:35:19,457] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:35:19,457] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:30:19.457893+00:00
+[2021-12-28 16:35:35,788] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.70s           2021-12-29T00:35:00
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.70s           2021-12-29T00:35:35
+================================================================================
+[2021-12-28 16:35:36,851] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:35:36,851] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:30:36.851323+00:00
+[2021-12-28 16:35:46,966] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:35:46,967] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:30:46.967009+00:00
+[2021-12-28 16:35:57,082] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:35:57,083] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:30:57.083278+00:00
+[2021-12-28 16:36:10,697] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.48s           2021-12-29T00:35:39
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.80s           2021-12-29T00:36:10
+================================================================================
+[2021-12-28 16:36:11,762] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:36:11,763] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:31:11.763073+00:00
+[2021-12-28 16:36:21,837] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:36:21,839] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:31:21.839012+00:00
+[2021-12-28 16:36:31,958] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:36:31,960] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:31:31.960253+00:00
+[2021-12-28 16:36:47,241] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.87s           2021-12-29T00:36:14
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.43s           2021-12-29T00:36:47
+================================================================================
+[2021-12-28 16:36:48,308] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:36:48,309] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:31:48.309250+00:00
+[2021-12-28 16:36:58,454] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:36:58,455] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:31:58.455916+00:00
+[2021-12-28 16:37:08,575] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:37:08,576] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:32:08.576204+00:00
+[2021-12-28 16:37:24,138] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.32s           2021-12-29T00:36:50
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.78s           2021-12-29T00:37:24
+================================================================================
+[2021-12-28 16:37:25,200] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:37:25,200] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:32:25.200642+00:00
+[2021-12-28 16:37:35,343] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:37:35,344] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:32:35.344211+00:00
+[2021-12-28 16:37:45,470] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:37:45,470] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:32:45.470928+00:00
+[2021-12-28 16:38:00,076] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.16s           2021-12-29T00:37:27
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.83s           2021-12-29T00:38:00
+================================================================================
+[2021-12-28 16:38:01,147] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:01,148] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:01.148469+00:00
+[2021-12-28 16:38:11,284] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:11,285] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:11.285775+00:00
+[2021-12-28 16:38:21,499] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:21,501] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:21.500978+00:00
+[2021-12-28 16:38:37,013] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.82s           2021-12-29T00:38:02
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.78s           2021-12-29T00:38:37
+================================================================================
+[2021-12-28 16:38:38,078] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:38,079] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:38.079105+00:00
+[2021-12-28 16:38:48,198] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:48,199] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:48.199267+00:00
+[2021-12-28 16:38:58,326] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:38:58,327] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:33:58.327191+00:00
+[2021-12-28 16:39:14,409] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  3.37s           2021-12-29T00:38:41
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.28s           2021-12-29T00:39:14
+================================================================================
+[2021-12-28 16:39:15,468] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:39:15,468] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:34:15.468755+00:00
+[2021-12-28 16:39:25,607] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:39:25,608] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:34:25.608251+00:00
+[2021-12-28 16:39:34,518] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:39:34,523] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:39:35,715] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:39:35,715] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:34:35.715413+00:00
+[2021-12-28 16:39:52,348] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.02s           2021-12-29T00:39:17
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.84s           2021-12-29T00:39:52
+================================================================================
+[2021-12-28 16:39:53,456] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:39:53,456] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:34:53.456449+00:00
+[2021-12-28 16:40:03,570] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:40:03,571] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:35:03.571847+00:00
+[2021-12-28 16:40:13,688] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:40:13,688] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:35:13.688850+00:00
+[2021-12-28 16:40:28,204] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.83s           2021-12-29T00:39:56
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.71s           2021-12-29T00:40:28
+================================================================================
+[2021-12-28 16:40:29,263] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:40:29,263] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:35:29.263911+00:00
+[2021-12-28 16:40:39,391] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:40:39,392] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:35:39.392432+00:00
+[2021-12-28 16:40:49,531] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:40:49,531] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:35:49.531799+00:00
+[2021-12-28 16:41:02,424] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.96s           2021-12-29T00:40:31
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.11s           2021-12-29T00:41:02
+================================================================================
+[2021-12-28 16:41:03,490] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:03,490] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:03.490635+00:00
+[2021-12-28 16:41:13,620] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:13,621] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:13.621192+00:00
+[2021-12-28 16:41:23,740] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:23,741] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:23.740990+00:00
+[2021-12-28 16:41:36,480] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.62s           2021-12-29T00:41:05
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.94s           2021-12-29T00:41:36
+================================================================================
+[2021-12-28 16:41:37,542] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:37,542] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:37.542907+00:00
+[2021-12-28 16:41:47,670] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:47,671] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:47.671577+00:00
+[2021-12-28 16:41:57,791] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:41:57,792] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:36:57.792500+00:00
+[2021-12-28 16:42:11,471] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.67s           2021-12-29T00:41:39
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.88s           2021-12-29T00:42:11
+================================================================================
+[2021-12-28 16:42:12,531] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:42:12,532] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:37:12.532096+00:00
+[2021-12-28 16:42:22,656] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:42:22,657] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:37:22.657374+00:00
+[2021-12-28 16:42:32,793] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:42:32,794] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:37:32.794330+00:00
+[2021-12-28 16:42:48,567] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.70s           2021-12-29T00:42:14
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.95s           2021-12-29T00:42:48
+================================================================================
+[2021-12-28 16:42:49,631] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:42:49,632] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:37:49.632840+00:00
+[2021-12-28 16:42:59,710] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:42:59,711] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:37:59.711709+00:00
+[2021-12-28 16:43:09,827] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:43:09,828] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:38:09.828446+00:00
+[2021-12-28 16:43:25,037] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.89s           2021-12-29T00:42:52
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.35s           2021-12-29T00:43:25
+================================================================================
+[2021-12-28 16:43:26,114] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:43:26,114] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:38:26.114302+00:00
+[2021-12-28 16:43:36,319] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:43:36,320] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:38:36.320837+00:00
+[2021-12-28 16:43:46,432] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:43:46,433] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:38:46.433222+00:00
+[2021-12-28 16:44:00,332] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  4.07s           2021-12-29T00:43:30
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.17s           2021-12-29T00:44:00
+================================================================================
+[2021-12-28 16:44:01,390] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:01,391] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:01.391085+00:00
+[2021-12-28 16:44:11,545] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:11,545] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:11.545857+00:00
+[2021-12-28 16:44:21,670] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:21,672] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:21.672643+00:00
+[2021-12-28 16:44:38,151] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.60s           2021-12-29T00:44:03
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.81s           2021-12-29T00:44:38
+================================================================================
+[2021-12-28 16:44:39,237] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:44:39,248] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:44:39,268] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:39,268] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:39.268390+00:00
+[2021-12-28 16:44:49,367] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:49,368] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:49.368631+00:00
+[2021-12-28 16:44:59,488] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:44:59,489] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:39:59.489400+00:00
+[2021-12-28 16:45:12,728] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.52s           2021-12-29T00:44:41
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.44s           2021-12-29T00:45:12
+================================================================================
+[2021-12-28 16:45:13,785] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:45:13,785] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:40:13.785761+00:00
+[2021-12-28 16:45:23,928] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:45:23,929] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:40:23.929192+00:00
+[2021-12-28 16:45:34,057] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:45:34,058] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:40:34.058089+00:00
+[2021-12-28 16:45:52,008] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.02s           2021-12-29T00:45:15
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  9.16s           2021-12-29T00:45:52
+================================================================================
+[2021-12-28 16:45:53,093] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:45:53,093] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:40:53.093484+00:00
+[2021-12-28 16:46:03,991] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:46:03,998] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:41:03.998194+00:00
+[2021-12-28 16:46:14,124] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:46:14,124] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:41:14.124482+00:00
+[2021-12-28 16:46:29,906] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  4.46s           2021-12-29T00:45:57
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.77s           2021-12-29T00:46:29
+================================================================================
+[2021-12-28 16:46:30,990] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:46:30,990] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:41:30.990392+00:00
+[2021-12-28 16:46:41,123] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:46:41,125] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:41:41.125811+00:00
+[2021-12-28 16:46:51,240] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:46:51,241] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:41:51.241051+00:00
+[2021-12-28 16:47:07,088] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.83s           2021-12-29T00:46:33
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.05s           2021-12-29T00:47:07
+================================================================================
+[2021-12-28 16:47:08,141] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:47:08,142] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:42:08.142426+00:00
+[2021-12-28 16:47:18,263] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:47:18,264] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:42:18.264853+00:00
+[2021-12-28 16:47:28,395] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:47:28,396] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:42:28.396325+00:00
+[2021-12-28 16:47:42,714] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.04s           2021-12-29T00:47:10
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.52s           2021-12-29T00:47:42
+================================================================================
+[2021-12-28 16:47:43,777] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:47:43,777] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:42:43.777839+00:00
+[2021-12-28 16:47:53,910] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:47:53,911] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:42:53.911630+00:00
+[2021-12-28 16:48:04,027] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:48:04,027] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:43:04.027257+00:00
+[2021-12-28 16:48:18,396] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.58s           2021-12-29T00:47:46
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.56s           2021-12-29T00:48:18
+================================================================================
+[2021-12-28 16:48:19,460] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:48:19,460] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:43:19.460318+00:00
+[2021-12-28 16:48:29,578] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:48:29,579] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:43:29.579211+00:00
+[2021-12-28 16:48:39,745] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:48:39,746] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:43:39.746609+00:00
+[2021-12-28 16:48:55,457] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.19s           2021-12-29T00:48:21
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.94s           2021-12-29T00:48:55
+================================================================================
+[2021-12-28 16:48:56,516] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:48:56,517] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:43:56.517406+00:00
+[2021-12-28 16:49:06,629] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:49:06,630] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:44:06.630322+00:00
+[2021-12-28 16:49:16,758] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:49:16,758] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:44:16.758727+00:00
+[2021-12-28 16:49:32,198] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.41s           2021-12-29T00:48:58
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.63s           2021-12-29T00:49:32
+================================================================================
+[2021-12-28 16:49:33,266] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:49:33,266] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:44:33.266791+00:00
+[2021-12-28 16:49:39,304] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:49:39,317] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:49:43,411] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:49:43,411] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:44:43.411673+00:00
+[2021-12-28 16:49:53,532] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:49:53,533] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:44:53.533216+00:00
+[2021-12-28 16:50:07,333] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.42s           2021-12-29T00:49:35
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.02s           2021-12-29T00:50:07
+================================================================================
+[2021-12-28 16:50:08,406] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:50:08,407] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:45:08.407029+00:00
+[2021-12-28 16:50:18,531] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:50:18,532] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:45:18.532567+00:00
+[2021-12-28 16:50:28,653] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:50:28,654] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:45:28.654112+00:00
+[2021-12-28 16:50:41,642] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.89s           2021-12-29T00:50:10
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.19s           2021-12-29T00:50:41
+================================================================================
+[2021-12-28 16:50:42,697] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:50:42,698] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:45:42.698056+00:00
+[2021-12-28 16:50:52,823] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:50:52,824] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:45:52.824293+00:00
+[2021-12-28 16:51:02,942] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:51:02,943] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:46:02.942959+00:00
+[2021-12-28 16:51:16,291] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.73s           2021-12-29T00:50:44
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.54s           2021-12-29T00:51:16
+================================================================================
+[2021-12-28 16:51:17,363] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:51:17,363] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:46:17.363418+00:00
+[2021-12-28 16:51:27,485] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:51:27,486] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:46:27.486134+00:00
+[2021-12-28 16:51:37,611] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:51:37,612] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:46:37.612697+00:00
+[2021-12-28 16:51:50,385] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.41s           2021-12-29T00:51:19
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.97s           2021-12-29T00:51:50
+================================================================================
+[2021-12-28 16:51:51,446] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:51:51,446] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:46:51.446518+00:00
+[2021-12-28 16:52:01,573] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:01,574] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:01.574419+00:00
+[2021-12-28 16:52:11,694] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:11,694] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:11.694790+00:00
+[2021-12-28 16:52:24,396] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.66s           2021-12-29T00:51:53
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.89s           2021-12-29T00:52:24
+================================================================================
+[2021-12-28 16:52:25,460] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:25,461] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:25.461232+00:00
+[2021-12-28 16:52:35,585] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:35,586] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:35.586585+00:00
+[2021-12-28 16:52:45,707] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:45,707] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:45.707813+00:00
+[2021-12-28 16:52:58,916] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.71s           2021-12-29T00:52:27
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.41s           2021-12-29T00:52:58
+================================================================================
+[2021-12-28 16:52:59,974] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:52:59,974] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:47:59.974642+00:00
+[2021-12-28 16:53:10,104] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:53:10,105] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:48:10.105060+00:00
+[2021-12-28 16:53:20,266] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:53:20,267] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:48:20.267018+00:00
+[2021-12-28 16:53:34,760] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.76s           2021-12-29T00:53:01
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.72s           2021-12-29T00:53:34
+================================================================================
+[2021-12-28 16:53:35,820] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:53:35,820] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:48:35.820874+00:00
+[2021-12-28 16:53:45,946] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:53:45,947] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:48:45.947340+00:00
+[2021-12-28 16:53:56,072] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:53:56,073] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:48:56.073327+00:00
+[2021-12-28 16:54:11,382] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.04s           2021-12-29T00:53:37
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  6.51s           2021-12-29T00:54:11
+================================================================================
+[2021-12-28 16:54:12,443] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:54:12,444] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:49:12.444431+00:00
+[2021-12-28 16:54:22,589] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:54:22,590] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:49:22.590487+00:00
+[2021-12-28 16:54:32,719] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:54:32,720] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:49:32.720739+00:00
+[2021-12-28 16:54:39,368] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:54:39,392] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:54:48,579] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.64s           2021-12-29T00:54:14
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.09s           2021-12-29T00:54:48
+================================================================================
+[2021-12-28 16:54:49,643] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:54:49,643] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:49:49.643913+00:00
+[2021-12-28 16:54:59,758] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:54:59,759] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:49:59.759406+00:00
+[2021-12-28 16:55:09,879] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:55:09,880] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:50:09.879968+00:00
+[2021-12-28 16:55:22,840] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.22s           2021-12-29T00:54:51
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.15s           2021-12-29T00:55:22
+================================================================================
+[2021-12-28 16:55:23,904] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:55:23,904] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:50:23.904635+00:00
+[2021-12-28 16:55:34,021] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:55:34,022] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:50:34.022114+00:00
+[2021-12-28 16:55:44,141] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:55:44,141] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:50:44.141872+00:00
+[2021-12-28 16:55:57,893] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.61s           2021-12-29T00:55:25
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.94s           2021-12-29T00:55:57
+================================================================================
+[2021-12-28 16:55:58,957] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:55:58,958] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:50:58.958156+00:00
+[2021-12-28 16:56:09,044] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:56:09,045] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:51:09.045434+00:00
+[2021-12-28 16:56:19,163] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:56:19,163] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:51:19.163604+00:00
+[2021-12-28 16:56:31,975] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.85s           2021-12-29T00:56:00
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.97s           2021-12-29T00:56:31
+================================================================================
+[2021-12-28 16:56:33,036] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:56:33,037] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:51:33.037417+00:00
+[2021-12-28 16:56:43,159] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:56:43,160] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:51:43.160595+00:00
+[2021-12-28 16:56:53,284] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:56:53,285] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:51:53.285142+00:00
+[2021-12-28 16:57:06,017] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.60s           2021-12-29T00:56:34
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.93s           2021-12-29T00:57:06
+================================================================================
+[2021-12-28 16:57:07,076] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:57:07,077] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:52:07.077289+00:00
+[2021-12-28 16:57:17,207] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:57:17,208] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:52:17.208640+00:00
+[2021-12-28 16:57:27,332] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:57:27,332] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:52:27.332808+00:00
+[2021-12-28 16:57:40,055] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.62s           2021-12-29T00:57:08
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.93s           2021-12-29T00:57:40
+================================================================================
+[2021-12-28 16:57:41,120] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:57:41,120] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:52:41.120562+00:00
+[2021-12-28 16:57:51,247] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:57:51,248] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:52:51.248429+00:00
+[2021-12-28 16:58:01,365] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:58:01,365] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:53:01.365531+00:00
+[2021-12-28 16:58:14,242] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.68s           2021-12-29T00:57:42
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.07s           2021-12-29T00:58:14
+================================================================================
+[2021-12-28 16:58:15,306] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:58:15,306] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:53:15.306694+00:00
+[2021-12-28 16:58:25,428] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:58:25,429] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:53:25.429424+00:00
+[2021-12-28 16:58:35,547] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:58:35,548] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:53:35.548403+00:00
+[2021-12-28 16:58:52,063] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.76s           2021-12-29T00:58:17
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.71s           2021-12-29T00:58:52
+================================================================================
+[2021-12-28 16:58:53,127] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:58:53,127] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:53:53.127866+00:00
+[2021-12-28 16:59:03,258] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:59:03,259] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:54:03.259114+00:00
+[2021-12-28 16:59:13,398] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:59:13,399] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:54:13.399423+00:00
+[2021-12-28 16:59:27,720] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  3.06s           2021-12-29T00:58:56
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.44s           2021-12-29T00:59:27
+================================================================================
+[2021-12-28 16:59:28,875] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:59:28,876] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:54:28.875986+00:00
+[2021-12-28 16:59:39,433] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:59:39,444] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 16:59:39,464] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:59:39,464] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:54:39.464325+00:00
+[2021-12-28 16:59:50,211] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 16:59:50,211] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:54:50.211684+00:00
+[2021-12-28 17:00:03,723] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.10s           2021-12-29T00:59:30
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.82s           2021-12-29T01:00:03
+================================================================================
+[2021-12-28 17:00:04,786] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:04,786] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:04.786779+00:00
+[2021-12-28 17:00:14,899] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:14,900] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:14.900363+00:00
+[2021-12-28 17:00:25,017] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:25,018] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:25.018364+00:00
+[2021-12-28 17:00:37,713] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.71s           2021-12-29T01:00:06
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.88s           2021-12-29T01:00:37
+================================================================================
+[2021-12-28 17:00:38,775] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:38,775] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:38.775909+00:00
+[2021-12-28 17:00:48,900] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:48,901] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:48.901421+00:00
+[2021-12-28 17:00:59,034] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:00:59,034] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:55:59.034582+00:00
+[2021-12-28 17:01:11,656] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.63s           2021-12-29T01:00:40
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.83s           2021-12-29T01:01:11
+================================================================================
+[2021-12-28 17:01:12,717] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:01:12,717] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:56:12.717671+00:00
+[2021-12-28 17:01:22,842] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:01:22,843] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:56:22.843522+00:00
+[2021-12-28 17:01:32,965] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:01:32,965] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:56:32.965643+00:00
+[2021-12-28 17:01:46,132] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.92s           2021-12-29T01:01:14
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.36s           2021-12-29T01:01:46
+================================================================================
+[2021-12-28 17:01:47,196] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:01:47,197] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:56:47.197083+00:00
+[2021-12-28 17:01:57,321] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:01:57,322] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:56:57.322182+00:00
+[2021-12-28 17:02:07,444] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:02:07,444] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:57:07.444537+00:00
+[2021-12-28 17:02:20,845] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.74s           2021-12-29T01:01:48
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.59s           2021-12-29T01:02:20
+================================================================================
+[2021-12-28 17:02:21,907] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:02:21,907] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:57:21.907880+00:00
+[2021-12-28 17:02:32,028] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:02:32,029] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:57:32.029616+00:00
+[2021-12-28 17:02:42,149] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:02:42,150] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:57:42.150242+00:00
+[2021-12-28 17:02:55,554] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.57s           2021-12-29T01:02:23
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.60s           2021-12-29T01:02:55
+================================================================================
+[2021-12-28 17:02:56,614] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:02:56,614] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:57:56.614891+00:00
+[2021-12-28 17:03:06,729] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:03:06,730] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:58:06.730448+00:00
+[2021-12-28 17:03:16,843] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:03:16,844] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:58:16.844261+00:00
+[2021-12-28 17:03:33,053] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.89s           2021-12-29T01:02:58
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  7.39s           2021-12-29T01:03:33
+================================================================================
+[2021-12-28 17:03:34,129] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:03:34,129] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:58:34.129666+00:00
+[2021-12-28 17:03:44,261] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:03:44,262] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:58:44.262204+00:00
+[2021-12-28 17:03:54,388] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:03:54,389] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:58:54.389384+00:00
+[2021-12-28 17:04:07,126] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.24s           2021-12-29T01:03:36
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.96s           2021-12-29T01:04:07
+================================================================================
+[2021-12-28 17:04:08,189] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:04:08,189] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:59:08.189557+00:00
+[2021-12-28 17:04:18,313] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:04:18,314] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:59:18.314815+00:00
+[2021-12-28 17:04:28,469] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:04:28,470] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:59:28.470046+00:00
+[2021-12-28 17:04:42,870] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.60s           2021-12-29T01:04:09
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.63s           2021-12-29T01:04:42
+================================================================================
+[2021-12-28 17:04:43,940] {manager.py:653} INFO - Searching for files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 17:04:43,952] {manager.py:656} INFO - There are 2 files in /Users/shimingr/mlops/airflow/dags
+[2021-12-28 17:04:43,975] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:04:43,975] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:59:43.975758+00:00
+[2021-12-28 17:04:54,057] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:04:54,058] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 00:59:54.058726+00:00
+[2021-12-28 17:05:04,173] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:05:04,173] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:00:04.173564+00:00
+[2021-12-28 17:05:17,355] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.94s           2021-12-29T01:04:45
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.36s           2021-12-29T01:05:17
+================================================================================
+[2021-12-28 17:05:18,416] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:05:18,416] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:00:18.416731+00:00
+[2021-12-28 17:05:28,563] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:05:28,564] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:00:28.564097+00:00
+[2021-12-28 17:05:38,678] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:05:38,678] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:00:38.678362+00:00
+[2021-12-28 17:05:51,454] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.60s           2021-12-29T01:05:20
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  3.99s           2021-12-29T01:05:51
+================================================================================
+[2021-12-28 17:05:52,517] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:05:52,518] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:00:52.518139+00:00
+[2021-12-28 17:06:02,647] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:06:02,648] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:01:02.648274+00:00
+[2021-12-28 17:06:12,777] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:06:12,777] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:01:12.777621+00:00
+[2021-12-28 17:06:25,847] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  1.65s           2021-12-29T01:05:54
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  4.28s           2021-12-29T01:06:25
+================================================================================
+[2021-12-28 17:06:26,916] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:06:26,917] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:01:26.917085+00:00
+[2021-12-28 17:06:37,042] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:06:37,042] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:01:37.042741+00:00
+[2021-12-28 17:06:47,185] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:06:47,186] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:01:47.186286+00:00
+[2021-12-28 17:07:01,143] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.33s           2021-12-29T01:06:29
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.17s           2021-12-29T01:07:01
+================================================================================
+[2021-12-28 17:07:02,209] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:07:02,210] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:02:02.210340+00:00
+[2021-12-28 17:07:12,331] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:07:12,332] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:02:12.332459+00:00
+[2021-12-28 17:07:22,470] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:07:22,470] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:02:22.470730+00:00
+[2021-12-28 17:07:36,908] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/shimingr/mlops/airflow/dags/config.py                                            0           0  2.37s           2021-12-29T01:07:04
+/Users/shimingr/mlops/airflow/dags/mwaa-customer-churn-dag.py                           1           0  5.65s           2021-12-29T01:07:36
+================================================================================
+[2021-12-28 17:07:37,978] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:07:37,979] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:02:37.979259+00:00
+[2021-12-28 17:07:48,109] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-28 17:07:48,110] {manager.py:1055} INFO - Failing jobs without heartbeat after 2021-12-29 01:02:48.110350+00:00
+[2021-12-28 17:07:55,360] {manager.py:485} INFO - Exiting gracefully upon receiving signal 15

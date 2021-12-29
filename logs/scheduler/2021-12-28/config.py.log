@@ -308,3 +308,8 @@
 [2021-12-27 23:00:58,456] {logging_mixin.py:109} INFO - [2021-12-27 23:00:58,456] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
 [2021-12-27 23:00:58,484] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
 [2021-12-27 23:00:58,486] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.033 seconds
+[2021-12-27 23:01:44,085] {processor.py:163} INFO - Started process (PID=38340) to work on /Users/shimingr/mlops/airflow/dags/config.py
+[2021-12-27 23:01:44,086] {processor.py:625} INFO - Processing file /Users/shimingr/mlops/airflow/dags/config.py for tasks to queue
+[2021-12-27 23:01:44,086] {logging_mixin.py:109} INFO - [2021-12-27 23:01:44,086] {dagbag.py:500} INFO - Filling up the DagBag from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-12-27 23:01:44,122] {processor.py:639} WARNING - No viable dags retrieved from /Users/shimingr/mlops/airflow/dags/config.py
+[2021-12-27 23:01:44,125] {processor.py:171} INFO - Processing /Users/shimingr/mlops/airflow/dags/config.py took 0.041 seconds
