@@ -16,7 +16,8 @@
 
 第九步，手动create这个role https://github.com/BestGigaCat/airflow/blob/master/dags/config.py#L9 在AWS的IAM里，给予AdministratorAccess就可以了。然后在trust relationship的tab里允许glue作为service使用。
 
-如下图![Screen Shot 2022-04-05 at 10 23 52 PM](https://user-images.githubusercontent.com/42524548/161901589-7fce5a2e-50b2-46da-9403-cddc9c8a3e32.png)
+如下图![Screen Shot 2022-04-05 at 10 25 52 PM](https://user-images.githubusercontent.com/42524548/161901814-086ed6da-8c36-4441-921a-639f16c81ac2.png)
+
 ![Screen Shot 2022-04-05 at 10 24 06 PM](https://user-images.githubusercontent.com/42524548/161901609-2e768c09-3a93-4dd3-97db-01cd6c6065c2.png)
 
 第十步，同上，但是创建sagemaker的iam role https://github.com/BestGigaCat/airflow/blob/master/dags/config.py#L17， 还是给予access和sagemaker作为service的使用权利。
