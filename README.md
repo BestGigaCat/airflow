@@ -12,11 +12,20 @@
 
 第七步，设置一个你希望存储模型的位置，创建S3路径，配置在这一行 https://github.com/BestGigaCat/airflow/blob/master/dags/config.py#L24
 
-第八步，DAG和airflow应该都没问题了，然后如果你没有airflow 创建db，就是没有运行这行代码， airflow db init 运行这行代码。
+第八步，在airflow.cfg文件里，把dags_folder改成你自己的路径，现在指的是我自己的本地path。
 
-第九步，在一个界面运行 airflow scheduler，在另一个Terminal 界面（新开一个）运行airflow webserver，实际设置airflow的在第一堂课的博客链接里有讲，https://towardsdatascience.com/an-introduction-to-apache-airflow-21111bf98c1f 我就是跟着这个设置和启动的。Airflow启动完毕。
+第九步，手动create这个role https://github.com/BestGigaCat/airflow/blob/master/dags/config.py#L9 在AWS的IAM里，给予AdministratorAccess就可以了。然后在trust relationship的tab里允许glue作为service使用。
 
-第十步，进入http://localhost:8080/ 也就是本地的airflow用户管理界面，尝试运行你的DAG，如果顺利的话就都绿了。
+如下图![Screen Shot 2022-04-05 at 10 23 52 PM](https://user-images.githubusercontent.com/42524548/161901589-7fce5a2e-50b2-46da-9403-cddc9c8a3e32.png)
+![Screen Shot 2022-04-05 at 10 24 06 PM](https://user-images.githubusercontent.com/42524548/161901609-2e768c09-3a93-4dd3-97db-01cd6c6065c2.png)
+
+第十步，同上，但是创建sagemaker的iam role https://github.com/BestGigaCat/airflow/blob/master/dags/config.py#L17， 还是给予access和sagemaker作为service的使用权利。
+
+第十一步，DAG和airflow应该都没问题了，然后如果你没有airflow 创建db，就是没有运行这行代码， airflow db init 运行这行代码。
+
+第十二步，在一个界面运行 airflow scheduler，在另一个Terminal 界面（新开一个）运行airflow webserver，实际设置airflow的在第一堂课的博客链接里有讲，https://towardsdatascience.com/an-introduction-to-apache-airflow-21111bf98c1f 我就是跟着这个设置和启动的。Airflow启动完毕。
+
+第十三步，进入http://localhost:8080/ 也就是本地的airflow用户管理界面，尝试运行你的DAG，如果顺利的话就都绿了。
 
 
 
