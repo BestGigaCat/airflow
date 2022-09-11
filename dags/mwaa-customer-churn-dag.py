@@ -4,7 +4,6 @@ import requests
 import uuid
 import time
 import sys
-from custom_operator.test_operator import TestOperator
 # airflow operators
 import airflow
 from airflow.models import DAG
@@ -68,7 +67,7 @@ def preprocess_glue():
         DefaultArguments={
             '--job-language': 'python'
         },
-        GlueVersion='1.0',
+        GlueVersion='3.0',
         WorkerType='Standard',
         NumberOfWorkers=2,
         Timeout=60
@@ -201,11 +200,6 @@ with DAG(
         max_ingestion_time=None,
         operation='create',  # change to update if you are updating rather than creating an endpoint
     )
-
-    # test_endpoint = TestOperator(
-    #     task_id = "test-endpoint",
-    #     endpoint_name=sagemaker_endpoint_name
-    # )
 
     # set the dependencies between tasks
     process_task >> train_task >> endpoint_deploy_task
